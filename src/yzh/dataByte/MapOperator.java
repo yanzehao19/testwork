@@ -11,8 +11,8 @@ import java.util.Map;
 public class MapOperator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Map<String, String> map1 = new HashMap<>(1);
-		Map<String, Object> map = new HashMap<>();
+		Map<String, String> map1 = new HashMap<String, String>();
+		Map<String, Object> map = new HashMap<String, Object>();
 
 		map.put("1", new Integer(1));
 		map.put("2", new Integer(2));
