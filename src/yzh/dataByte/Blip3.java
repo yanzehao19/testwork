@@ -51,7 +51,7 @@ public class Blip3 implements Externalizable {
 			System.out.println("Recovering b3:");
 			b3 = (Blip3) in.readObject();
 			System.out.println(b3.toString());
-
+			in.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
