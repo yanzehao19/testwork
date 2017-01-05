@@ -13,6 +13,7 @@ import java.io.LineNumberInputStream;
 import java.io.PrintStream;
 import java.io.RandomAccessFile;
 import java.io.StringBufferInputStream;
+import java.io.StringReader;
 
 public class IOStreamDemo {
 
