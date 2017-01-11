@@ -6,23 +6,39 @@ import com.ibm.icu.util.Calendar;
 import com.ibm.icu.util.TimeZone;
 
 public class NothingJustPlay {
-	private NothingJustPlay()throws AssertionError{
-		
+	private NothingJustPlay() throws AssertionError {
+
 	}
-	public static Boolean valueOf(boolean b){
+
+	public static Boolean valueOf(boolean b) {
 		return null;
 	}
-	NothingJustPlay nothingJustPlay =new NothingJustPlay();
+
+	NothingJustPlay nothingJustPlay = new NothingJustPlay();
 }
-class Instance{
+
+class Instance {
 }
-class Person{
-	private final Date birthDate;
-	private static final Date BOOM_START;
-	private static final Date BOOM_END;
-	
-	
-	static{
-		Calendar gmtCal=Calendar.getInstance(TimeZone.getTimeZone("GMT"));
+
+class Person {
+	private final Date birthDate = new Date(1);
+	private static final Date BOOM_START = new Date(2016, 12, 1);
+	private static final Date BOOM_END = new Date(2011, 13, 1);
+@Override
+public int hashCode() {
+	// TODO Auto-generated method stub
+	return super.hashCode();
+}
+	static {
+		Calendar gmtCal = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
 	}
 }
+
+class Stack<E>{
+	private E[] elements;
+	private int size =0;
+	
+}
+
+	
+
