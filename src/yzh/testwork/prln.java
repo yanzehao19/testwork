@@ -1,4 +1,4 @@
-package testwork;
+package yzh.testwork;
 
 public class prln {
   public void prlns(int a) {

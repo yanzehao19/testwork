@@ -1,6 +1,6 @@
-package testwork;
+package yzh.testwork;
 
-import testwork.prln;
+import yzh.testwork.prln;
 public class testType {
 
   public static void main(String[] args) {

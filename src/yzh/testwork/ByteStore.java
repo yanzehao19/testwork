@@ -1,6 +1,6 @@
-package testwork;
+package yzh.testwork;
 
-import testwork.MyItem;
+import yzh.testwork.MyItem;
 
 public class ByteStore {
 
