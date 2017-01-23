@@ -3,11 +3,10 @@ package yzh.Object;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.mail.Provider;
+import javax.xml.ws.Provider;
+import javax.xml.ws.Service;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
 
-import com.sun.xml.internal.ws.wsdl.writer.document.Service;
 
 public class StaticFactoryMethod {
 	private StaticFactoryMethod() {
@@ -32,7 +31,7 @@ public class StaticFactoryMethod {
 		Provider provider = providers.get(name);
 		if (provider == null)
 			throw new IllegalArgumentException("No provider registered with name:" + name);
-		return ((Object) provider).newService();
+		return provider.newService();
 	}
 
 	public static void main(String[] args) {
