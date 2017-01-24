@@ -10,25 +10,27 @@ import java.net.Socket;
 public class GreetingClient {
 
 	public static void main(String[] args) {
-		 String serverName = args[0];
-	      int port = Integer.parseInt(args[1]);
-	      try
+//		 String serverName = args[0];
+//	      int port = Integer.parseInt(args[1]);
+	     int port =6066; 
+	     String serverName="localhost";
+		 try
 	      {
-	         System.out.println("Connecting to " + serverName
+	         System.out.println("2 Connecting to " + serverName
 	                             + " on port " + port);
 	         Socket client = new Socket(serverName, port);
-	         System.out.println("Just connected to "
+	         System.out.println("2 Just connected to "
 	                      + client.getRemoteSocketAddress());
 	         OutputStream outToServer = client.getOutputStream();
 	         DataOutputStream out =
 	                       new DataOutputStream(outToServer);
 	 
-	         out.writeUTF("Hello from "
+	         out.writeUTF("2 Hello from client"
 	                      + client.getLocalSocketAddress());
 	         InputStream inFromServer = client.getInputStream();
 	         DataInputStream in =
 	                        new DataInputStream(inFromServer);
-	         System.out.println("Server says " + in.readUTF());
+	         System.out.println("2 Server says " + in.readUTF());
 	         client.close();
 	      }catch(IOException e)
 	      {
