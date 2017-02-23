@@ -13,10 +13,10 @@ public class SendHTMLEmail {
 
 	public static void main(String[] args) {
 		  // 收件人电子邮箱
-	      String to = "abcd@gmail.com";
+	      String to = "yanzehao19@163.com";
 	 
 	      // 发件人电子邮箱
-	      String from = "web@gmail.com";
+	      String from = "91327919@qq.com";
 	 
 	      // 指定发送邮件的主机为 localhost
 	      String host = "localhost";

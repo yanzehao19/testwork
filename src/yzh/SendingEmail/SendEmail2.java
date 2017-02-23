@@ -17,11 +17,11 @@ import javax.mail.internet.MimeMessage;
 public class SendEmail2 {
 	public static void main(String [] args)
 	   {
-	      // 收件人电子邮箱
-	      String to = "xxx@qq.com";
+		  // 收件人电子邮箱
+	      String to = "455969646@qq.com";
 	 
 	      // 发件人电子邮箱
-	      String from = "xxx@qq.com";
+	      String from = "91327919@qq.com";
 	 
 	      // 指定发送邮件的主机为 smtp.qq.com
 	      String host = "smtp.qq.com";  //QQ 邮件服务器
@@ -37,7 +37,7 @@ public class SendEmail2 {
 	      Session session = Session.getDefaultInstance(properties,new Authenticator(){
 	        public PasswordAuthentication getPasswordAuthentication()
 	        {
-	         return new PasswordAuthentication("xxx@qq.com", "qq邮箱密码"); //发件人邮件用户名、密码
+	         return new PasswordAuthentication("风之谷", "rwaobsfpigvabcaj"); //发件人邮件用户名、密码
 	        }
 	       });
 	 
