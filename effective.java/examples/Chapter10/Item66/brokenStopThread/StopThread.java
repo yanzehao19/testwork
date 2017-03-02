@@ -1,5 +1,6 @@
 package examples.Chapter10.Item66.brokenStopThread;
 
+
 // Broken! - How long would you expect this program to run? - Page 259
 
 import java.util.concurrent.*;
