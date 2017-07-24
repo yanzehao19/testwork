@@ -1,7 +1,5 @@
 package yzh.send.email.success;
 
-import org.apache.commons.mail.EmailException;
-import org.apache.commons.mail.HtmlEmail;
 
 /**
  * 邮件发送工具实现类

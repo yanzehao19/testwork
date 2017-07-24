@@ -4,5 +4,10 @@
         <wb-resource deploy-path="/" source-path="/design.pattern"/>
         <wb-resource deploy-path="/" source-path="/javascript"/>
         <wb-resource deploy-path="/" source-path="/effective.java"/>
+        <wb-resource deploy-path="/" source-path="/rpc"/>
+        <wb-resource deploy-path="/" source-path="/NIO"/>
+        <wb-resource deploy-path="/" source-path="/dataStructure"/>
+        <wb-resource deploy-path="/" source-path="/rmi"/>
+        <wb-resource deploy-path="/" source-path="/testnetborder"/>
     </wb-module>
 </project-modules>

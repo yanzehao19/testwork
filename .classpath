@@ -4,17 +4,17 @@
 	<classpathentry kind="src" path="design.pattern"/>
 	<classpathentry kind="src" path="javascript"/>
 	<classpathentry kind="src" path="effective.java"/>
+	<classpathentry kind="src" path="rpc"/>
+	<classpathentry kind="src" path="NIO"/>
+	<classpathentry kind="src" path="dataStructure"/>
+	<classpathentry kind="src" path="rmi"/>
+	<classpathentry kind="src" path="testnetborder"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-lib"/>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.utility"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh-lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh-lib"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
