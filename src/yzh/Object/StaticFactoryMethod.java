@@ -1,9 +1,9 @@
 package yzh.Object;
 
+import java.security.Provider;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.xml.ws.Provider;
 import javax.xml.ws.Service;
 
 

@@ -9,20 +9,23 @@ import java.util.concurrent.Executors;
 
 public class ExcecutorServiceDemo {
 	ExecutorService executorService= Executors.newFixedThreadPool(10);
-	executorService.execute(new  Runnable() {
+	
+	
+	
+	executorService11.execute(new  Runnable() {
 		public void run() {
 			System.out.println("Asynchronous task");
 		}
-	});
+	})
 	executorService.shutdown();
 }
 
-public interface URLProcessor{
+ interface URLProcessor{
 	public void process(URL url)throws IOException;
 }
 
 
-public abstract class URLProcessorBase implements URLProcessor{
+ abstract class URLProcessorBase implements URLProcessor{
 	public void process(URL url) throws IOException{
 		URLConnection urlConnection = url.openConnection();
 		InputStream input=urlConnection.getInputStream();
@@ -40,7 +43,7 @@ public abstract class URLProcessorBase implements URLProcessor{
 
 
 
-public class URLProcessorImpl extends URLProcessorBase{
+ class URLProcessorImpl extends URLProcessorBase{
 	@Override
 	protected void processURLData(InputStream input) throws IOException{
 		int data=input.read();

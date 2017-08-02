@@ -1,9 +1,9 @@
 package yzh.dataByte;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 
-import com.mysql.jdbc.Connection;
 
 public class Lookup {
 

@@ -2,7 +2,6 @@ package yzh.Generic;
 
 import java.sql.Date;
 
-import org.apache.poi.ss.formula.functions.T;
 
 public interface InterfaceGeneric<T,U> {
 	void show(T t, U u);

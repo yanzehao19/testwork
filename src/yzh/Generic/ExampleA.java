@@ -1,6 +1,5 @@
 package yzh.Generic;
 
-import org.apache.poi.ss.formula.functions.T;
 
 public class ExampleA {
 	public <T> void f(T x) {
