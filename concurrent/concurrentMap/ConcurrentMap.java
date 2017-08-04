@@ -9,5 +9,4 @@ public class ConcurrentMap {
 		concurrentMap.put("key","value");
 		Object  value = concurrentMap.get("key");
 	}
-
 }
