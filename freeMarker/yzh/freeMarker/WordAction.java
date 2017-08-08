@@ -1,6 +1,5 @@
 package yzh.freeMarker;
 
-import java.awt.im.InputContext;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -13,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class WordAction   {
+public class WordAction {
 
 	private String filePath;// 文件路径
 	private String fileName;// 文件名称
@@ -51,11 +50,12 @@ public class WordAction   {
 		// 文件名称
 		fileName = "用freemarker导出的Word文档.doc";
 		// 生成word
-		WordUtil.createWord(dataMap, "news.ftl", filePath, fileOnlyName);
+		WordUtil.createWord(dataMap, "news.ftl", "D:\\", filePath, fileOnlyName);
 		return "createWordSuccess";
 
 	}
 
+	@SuppressWarnings("resource")
 	public String downloadWord() {
 		// 先判断文件是否已生成
 		try {
@@ -64,7 +64,8 @@ public class WordAction   {
 			fileOnlyName = URLDecoder.decode(fileOnlyName, "UTF-8");
 			fileName = URLDecoder.decode(fileName, "UTF-8");
 			// 如果文件不存在，则会跳入异常，然后可以进行异常处理
-			new FileInputStream(filePath + File.separator + fileOnlyName);
+			@SuppressWarnings("unused")
+			FileInputStream fileInputStream = new FileInputStream(filePath + File.separator + fileOnlyName);
 
 		} catch (Exception e) {
 			e.printStackTrace();

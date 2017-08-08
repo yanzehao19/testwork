@@ -11,15 +11,14 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 
 public class WordUtil {
-	@SuppressWarnings("unchecked")
-	public static void createWord(Map dataMap, String templateName, String filePath, String fileName) {
+	public static void createWord(Map<?, ?> dataMap, String templateName, String templatePath,String filePath, String fileName) {
 		try {
 			// 创建配置实例
-			Configuration configuration = new Configuration();
+			Configuration configuration = new Configuration(Configuration.VERSION_2_3_25);
 			// 设置编码
 			configuration.setDefaultEncoding("UTF-8");
 			// ftl模板文件统一放置com.lun.template包下面
-			configuration.setClassForTemplateLoading(WordUtil.class, "/com/lun/template/");
+			configuration.setClassForTemplateLoading(WordUtil.class, templatePath);
 			// 获取模板
 			Template template = configuration.getTemplate(templateName);
 			// 输出文件

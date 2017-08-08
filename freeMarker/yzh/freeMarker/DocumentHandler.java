@@ -18,7 +18,7 @@ public class DocumentHandler {
 	private Configuration configuration = null;
 
 	public DocumentHandler() {
-		configuration = new Configuration();
+		configuration = new Configuration(Configuration.VERSION_2_3_25);
 		configuration.setDefaultEncoding("utf-8");
 	}
 
