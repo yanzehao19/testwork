@@ -9,6 +9,12 @@
 	<classpathentry kind="src" path="dataStructure"/>
 	<classpathentry kind="src" path="rmi"/>
 	<classpathentry kind="src" path="testnetborder"/>
+	<classpathentry kind="src" path="concurrent"/>
+	<classpathentry kind="src" path="freeMarker"/>
+	<classpathentry kind="src" path="hadoop"/>
+	<classpathentry kind="src" path="activiti"/>
+	<classpathentry kind="src" path="poi"/>
+	<classpathentry kind="src" path="thinkingInJava"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh-lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
@@ -16,5 +22,8 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/third-lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

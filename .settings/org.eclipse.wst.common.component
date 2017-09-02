@@ -9,5 +9,10 @@
         <wb-resource deploy-path="/" source-path="/dataStructure"/>
         <wb-resource deploy-path="/" source-path="/rmi"/>
         <wb-resource deploy-path="/" source-path="/testnetborder"/>
+        <wb-resource deploy-path="/" source-path="/concurrent"/>
+        <wb-resource deploy-path="/" source-path="/hadoop"/>
+        <wb-resource deploy-path="/" source-path="/activiti"/>
+        <wb-resource deploy-path="/" source-path="/poi"/>
+        <wb-resource deploy-path="/" source-path="/thinkingInJava"/>
     </wb-module>
 </project-modules>
