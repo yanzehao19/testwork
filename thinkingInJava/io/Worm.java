@@ -1,8 +1,10 @@
+package io;
+import static net.mindview.util.Print.*;
+
 //: io/Worm.java
 // Demonstrates object serialization.
 import java.io.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 class Data implements Serializable {
   private int n;

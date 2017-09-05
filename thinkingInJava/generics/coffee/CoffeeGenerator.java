@@ -2,6 +2,7 @@
 // Generate different types of Coffee:
 package generics.coffee;
 import java.util.*;
+
 import net.mindview.util.*;
 
 public class CoffeeGenerator

@@ -1,11 +1,14 @@
+package io;
 //: io/ZipCompress.java
 // Uses Zip compression to compress any
 // number of files given on the command line.
 // {Args: ZipCompress.java}
 import java.util.zip.*;
+
+import static net.mindview.util.Print.*;
+
 import java.io.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class ZipCompress {
   public static void main(String[] args)

@@ -1,8 +1,10 @@
+package generics;
+import static net.mindview.util.Print.*;
+
 //: generics/Functional.java
 import java.math.*;
 import java.util.concurrent.atomic.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 // Different types of function objects:
 interface Combiner<T> { T combine(T x, T y); }

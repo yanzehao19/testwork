@@ -1,5 +1,4 @@
-//: initialization/ExplicitStatic.java
-// Explicit static initialization with the "static" clause.
+package initialization;
 import static net.mindview.util.Print.*;
 
 class Cup {

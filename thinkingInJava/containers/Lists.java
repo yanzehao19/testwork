@@ -1,8 +1,11 @@
+package containers;
+import static net.mindview.util.Print.*;
+
 //: containers/Lists.java
 // Things you can do with Lists.
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class Lists {
   private static boolean b;

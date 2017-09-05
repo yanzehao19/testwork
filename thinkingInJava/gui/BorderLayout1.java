@@ -1,8 +1,11 @@
+package gui;
 //: gui/BorderLayout1.java
 // Demonstrates BorderLayout.
 import javax.swing.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class BorderLayout1 extends JFrame {
   public BorderLayout1() {

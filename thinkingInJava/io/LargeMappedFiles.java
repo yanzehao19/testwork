@@ -1,10 +1,13 @@
+package io;
 //: io/LargeMappedFiles.java
 // Creating a very large file using mapping.
 // {RunByHand}
 import java.nio.*;
 import java.nio.channels.*;
-import java.io.*;
+
 import static net.mindview.util.Print.*;
+
+import java.io.*;
 
 public class LargeMappedFiles {
   static int length = 0x8FFFFFF; // 128 MB

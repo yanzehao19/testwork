@@ -1,11 +1,14 @@
+package gui;
 //: gui/BeanDumper.java
 // Introspecting a Bean.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.beans.*;
 import java.lang.reflect.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class BeanDumper extends JFrame {
   private JTextField query = new JTextField(20);

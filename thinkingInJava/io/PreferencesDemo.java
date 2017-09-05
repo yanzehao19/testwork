@@ -1,6 +1,8 @@
+package io;
+import static net.mindview.util.Print.*;
+
 //: io/PreferencesDemo.java
 import java.util.prefs.*;
-import static net.mindview.util.Print.*;
 
 public class PreferencesDemo {
   public static void main(String[] args) throws Exception {

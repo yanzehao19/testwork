@@ -1,9 +1,10 @@
 package concurrency;
 
+import static net.mindview.util.Print.*;
+
 //: concurrency/ThreadVariations.java
 // Creating threads with inner classes.
 import java.util.concurrent.*;
-import static net.mindview.util.Print.*;
 
 // Using a named inner class:
 class InnerThread1 {

@@ -1,11 +1,14 @@
+package concurrency;
 //: concurrency/SynchronizationComparisons.java
 // Comparing the performance of explicit Locks
 // and Atomics versus the synchronized keyword.
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 import java.util.concurrent.locks.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 abstract class Accumulator {
   public static long cycles = 50000L;

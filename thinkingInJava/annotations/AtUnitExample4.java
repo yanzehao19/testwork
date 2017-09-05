@@ -1,9 +1,11 @@
 //: annotations/AtUnitExample4.java
 package annotations;
+import static net.mindview.util.Print.*;
+
 import java.util.*;
+
 import net.mindview.atunit.*;
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class AtUnitExample4 {
   static String theory = "All brontosauruses " +

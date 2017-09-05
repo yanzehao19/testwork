@@ -6,8 +6,10 @@ package concurrency;
 // {RunByHand}
 import java.net.*;
 import java.util.concurrent.*;
-import java.io.*;
+
 import static net.mindview.util.Print.*;
+
+import java.io.*;
 
 public class CloseResource {
   public static void main(String[] args) throws Exception {

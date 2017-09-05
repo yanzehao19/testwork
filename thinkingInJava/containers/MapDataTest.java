@@ -1,7 +1,10 @@
+package containers;
+import static net.mindview.util.Print.*;
+
 //: containers/MapDataTest.java
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 class Letters implements Generator<Pair<Integer,String>>,
   Iterable<Integer> {

@@ -1,10 +1,13 @@
+package gui;
 //: gui/Menus.java
 // Submenus, check box menu items, swapping menus,
 // mnemonics (shortcuts) and action commands.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class Menus extends JFrame {
   private String[] flavors = {

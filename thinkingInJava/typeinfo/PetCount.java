@@ -1,8 +1,11 @@
+package typeinfo;
 //: typeinfo/PetCount.java
 // Using instanceof.
-import typeinfo.pets.*;
-import java.util.*;
 import static net.mindview.util.Print.*;
+
+import java.util.*;
+
+import typeinfo.pets.*;
 
 public class PetCount {
   static class PetCounter extends HashMap<String,Integer> {

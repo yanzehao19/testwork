@@ -1,4 +1,4 @@
-//: initialization/ArraysOfPrimitives.java
+package initialization;
 import static net.mindview.util.Print.*;
 
 public class ArraysOfPrimitives {

@@ -1,8 +1,9 @@
 //: interfaces/music4/Music4.java
 // Abstract classes and methods.
 package interfaces.music4;
-import polymorphism.music.Note;
 import static net.mindview.util.Print.*;
+
+import polymorphism.music.Note;
 
 abstract class Instrument {
   private int i; // Storage allocated for each

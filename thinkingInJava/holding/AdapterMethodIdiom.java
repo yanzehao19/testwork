@@ -1,3 +1,4 @@
+package holding;
 //: holding/AdapterMethodIdiom.java
 // The "Adapter Method" idiom allows you to use foreach
 // with additional kinds of Iterables.

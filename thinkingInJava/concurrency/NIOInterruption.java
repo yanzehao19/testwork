@@ -6,8 +6,10 @@ import java.net.*;
 import java.nio.*;
 import java.nio.channels.*;
 import java.util.concurrent.*;
-import java.io.*;
+
 import static net.mindview.util.Print.*;
+
+import java.io.*;
 
 class NIOBlocked implements Runnable {
   private final SocketChannel sc;

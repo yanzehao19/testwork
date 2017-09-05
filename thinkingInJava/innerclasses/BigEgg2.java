@@ -1,5 +1,4 @@
-//: innerclasses/BigEgg2.java
-// Proper inheritance of an inner class.
+package innerclasses;
 import static net.mindview.util.Print.*;
 
 class Egg2 {

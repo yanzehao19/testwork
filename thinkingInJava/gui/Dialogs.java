@@ -1,9 +1,12 @@
+package gui;
 //: gui/Dialogs.java
 // Creating and using Dialog Boxes.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 class MyDialog extends JDialog {
   public MyDialog(JFrame parent) {

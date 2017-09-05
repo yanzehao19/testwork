@@ -1,3 +1,4 @@
+package generics;
 //: generics/ClassTypeCapture.java
 
 class Building {}

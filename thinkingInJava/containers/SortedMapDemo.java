@@ -1,8 +1,11 @@
+package containers;
+import static net.mindview.util.Print.*;
+
 //: containers/SortedMapDemo.java
 // What you can do with a TreeMap.
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class SortedMapDemo {
   public static void main(String[] args) {

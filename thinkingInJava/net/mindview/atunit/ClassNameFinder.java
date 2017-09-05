@@ -1,9 +1,11 @@
 //: net/mindview/atunit/ClassNameFinder.java
 package net.mindview.atunit;
+import static net.mindview.util.Print.*;
+
 import java.io.*;
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class ClassNameFinder {
   public static String thisClass(byte[] classBytes) {

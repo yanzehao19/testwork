@@ -1,8 +1,10 @@
+package io;
+import static net.mindview.util.Print.*;
+
 //: io/AvailableCharSets.java
 // Displays Charsets and aliases
 import java.nio.charset.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class AvailableCharSets {
   public static void main(String[] args) {

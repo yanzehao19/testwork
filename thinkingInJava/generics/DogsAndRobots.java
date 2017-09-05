@@ -1,7 +1,7 @@
-//: generics/DogsAndRobots.java
-// No latent typing in Java
-import typeinfo.pets.*;
+package generics;
 import static net.mindview.util.Print.*;
+
+import typeinfo.pets.*;
 
 class PerformingDog extends Dog implements Performs {
   public void speak() { print("Woof!"); }

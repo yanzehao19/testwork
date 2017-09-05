@@ -1,6 +1,4 @@
-//: exceptions/DynamicFields.java
-// A Class that dynamically adds fields to itself.
-// Demonstrates exception chaining.
+package exceptions;
 import static net.mindview.util.Print.*;
 
 class DynamicFieldsException extends Exception {}

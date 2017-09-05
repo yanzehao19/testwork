@@ -1,5 +1,4 @@
-//: control/BreakAndContinue.java
-// Demonstrates break and continue keywords.
+package control;
 import static net.mindview.util.Range.*;
 
 public class BreakAndContinue {

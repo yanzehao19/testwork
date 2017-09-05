@@ -1,3 +1,4 @@
+package generics;
 //: generics/HijackedInterface.java
 // {CompileTimeError} (Won't compile)
 

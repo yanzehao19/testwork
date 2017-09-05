@@ -1,4 +1,4 @@
-//: arrays/GeneratorsTest.java
+package arrays;
 import net.mindview.util.*;
 
 public class GeneratorsTest {

@@ -1,8 +1,11 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/ArraySearching.java
 // Using Arrays.binarySearch().
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class ArraySearching {
   public static void main(String[] args) {

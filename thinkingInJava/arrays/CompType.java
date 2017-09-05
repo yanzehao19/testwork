@@ -1,8 +1,11 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/CompType.java
 // Implementing Comparable in a class.
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class CompType implements Comparable<CompType> {
   int i;

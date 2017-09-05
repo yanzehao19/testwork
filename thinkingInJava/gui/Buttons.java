@@ -1,10 +1,13 @@
+package gui;
 //: gui/Buttons.java
 // Various Swing buttons.
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.plaf.basic.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class Buttons extends JFrame {
   private JButton jb = new JButton("JButton");

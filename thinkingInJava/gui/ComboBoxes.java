@@ -1,9 +1,12 @@
+package gui;
 //: gui/ComboBoxes.java
 // Using drop-down lists.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class ComboBoxes extends JFrame {
   private String[] description = {

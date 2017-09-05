@@ -1,3 +1,4 @@
+package generics;
 //: generics/GenericReading.java
 import java.util.*;
 

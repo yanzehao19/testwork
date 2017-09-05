@@ -1,5 +1,4 @@
-//: exceptions/ExtraFeatures.java
-// Further embellishment of exception classes.
+package exceptions;
 import static net.mindview.util.Print.*;
 
 class MyException2 extends Exception {

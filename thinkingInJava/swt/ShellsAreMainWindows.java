@@ -1,3 +1,4 @@
+package swt;
 //: swt/ShellsAreMainWindows.java
 import org.eclipse.swt.widgets.*;
 

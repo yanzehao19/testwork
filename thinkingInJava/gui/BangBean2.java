@@ -1,12 +1,15 @@
+package gui;
 //: gui/BangBean2.java
 // You should write your Beans this way so they
 // can run in a multithreaded environment.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.util.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class BangBean2 extends JPanel
 implements Serializable {

@@ -1,8 +1,9 @@
 //: enumerated/RoShamBo1.java
 // Demonstration of multiple dispatching.
 package enumerated;
-import java.util.*;
 import static enumerated.Outcome.*;
+
+import java.util.*;
 
 interface Item {
   Outcome compete(Item it);

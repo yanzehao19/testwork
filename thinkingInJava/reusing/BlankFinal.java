@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/BlankFinal.java
 // "Blank" final fields.
 

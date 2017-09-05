@@ -1,10 +1,13 @@
+package gui;
 //: gui/List.java
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class List extends JFrame {
   private String[] flavors = {

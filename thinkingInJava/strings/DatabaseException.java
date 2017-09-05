@@ -1,3 +1,4 @@
+package strings;
 //: strings/DatabaseException.java
 
 public class DatabaseException extends Exception {

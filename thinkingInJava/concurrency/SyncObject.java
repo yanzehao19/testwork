@@ -1,7 +1,5 @@
 package concurrency;
 
-//: concurrency/SyncObject.java
-// Synchronizing on another object.
 import static net.mindview.util.Print.*;
 
 class DualSynch {

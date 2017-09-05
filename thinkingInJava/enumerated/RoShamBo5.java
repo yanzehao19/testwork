@@ -1,8 +1,9 @@
 //: enumerated/RoShamBo5.java
 // Multiple dispatching using an EnumMap of EnumMaps.
 package enumerated;
-import java.util.*;
 import static enumerated.Outcome.*;
+
+import java.util.*;
 
 enum RoShamBo5 implements Competitor<RoShamBo5> {
   PAPER, SCISSORS, ROCK;

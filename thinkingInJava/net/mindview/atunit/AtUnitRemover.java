@@ -8,12 +8,14 @@
 package net.mindview.atunit;
 import javassist.*;
 import javassist.expr.*;
+import net.mindview.util.*;
 import javassist.bytecode.*;
 import javassist.bytecode.annotation.*;
+
+import static net.mindview.util.Print.*;
+
 import java.io.*;
 import java.util.*;
-import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class AtUnitRemover
 implements ProcessFiles.Strategy {

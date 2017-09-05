@@ -1,7 +1,10 @@
+package swt;
 //: swt/DisplayEnvironment.java
-import swt.util.*;
 import org.eclipse.swt.*;
 import org.eclipse.swt.widgets.*;
+
+import swt.util.*;
+
 import org.eclipse.swt.layout.*;
 import java.util.*;
 

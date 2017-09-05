@@ -1,3 +1,4 @@
+package access;
 //: access/Lunch.java
 // Demonstrates class access specifiers. Make a class
 // effectively private with private constructors:

@@ -1,3 +1,4 @@
+package strings;
 //: strings/Resetting.java
 import java.util.regex.*;
 

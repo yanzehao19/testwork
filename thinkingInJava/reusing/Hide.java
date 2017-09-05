@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/Hide.java
 // Overloading a base-class method name in a derived
 // class does not hide the base-class versions.

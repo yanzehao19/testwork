@@ -1,7 +1,8 @@
 //: typeinfo/packageaccess/HiddenC.java
 package typeinfo.packageaccess;
-import typeinfo.interfacea.*;
 import static net.mindview.util.Print.*;
+
+import typeinfo.interfacea.*;
 
 class C implements A {
   public void f() { print("public C.f()"); }

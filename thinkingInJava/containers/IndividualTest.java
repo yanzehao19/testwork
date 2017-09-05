@@ -1,7 +1,8 @@
-//: containers/IndividualTest.java
+package containers;
+import java.util.*;
+
 import holding.MapOfList;
 import typeinfo.pets.*;
-import java.util.*;
 
 public class IndividualTest {
   public static void main(String[] args) {

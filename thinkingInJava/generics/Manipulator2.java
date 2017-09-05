@@ -1,3 +1,4 @@
+package generics;
 //: generics/Manipulator2.java
 
 class Manipulator2<T extends HasF> {

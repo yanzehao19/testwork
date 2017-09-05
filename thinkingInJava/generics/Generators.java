@@ -1,7 +1,9 @@
+package generics;
 //: generics/Generators.java
 // A utility to use with Generators.
-import generics.coffee.*;
 import java.util.*;
+
+import generics.coffee.*;
 import net.mindview.util.*;
 
 public class Generators {

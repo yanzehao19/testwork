@@ -1,5 +1,4 @@
-//: interfaces/Games.java
-// A Game framework using Factory Methods.
+package interfaces;
 import static net.mindview.util.Print.*;
 
 interface Game { boolean move(); }

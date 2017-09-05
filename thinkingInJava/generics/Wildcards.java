@@ -1,3 +1,4 @@
+package generics;
 //: generics/Wildcards.java
 // Exploring the meaning of wildcards.
 

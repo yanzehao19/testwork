@@ -1,8 +1,11 @@
+package concurrency;
 //: concurrency/CarBuilder.java
 // A complex example of tasks working together.
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 class Car {
   private final int id;

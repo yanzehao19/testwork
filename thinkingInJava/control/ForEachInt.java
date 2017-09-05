@@ -1,6 +1,6 @@
-//: control/ForEachInt.java
-import static net.mindview.util.Range.*;
+package control;
 import static net.mindview.util.Print.*;
+import static net.mindview.util.Range.*;
 
 public class ForEachInt {
   public static void main(String[] args) {

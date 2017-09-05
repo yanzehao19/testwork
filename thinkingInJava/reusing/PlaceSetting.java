@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/PlaceSetting.java
 // Combining composition & inheritance.
 import static net.mindview.util.Print.*;

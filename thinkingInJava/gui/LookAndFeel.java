@@ -1,9 +1,12 @@
+package gui;
 //: gui/LookAndFeel.java
 // Selecting different looks & feels.
 // {Args: motif}
 import javax.swing.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class LookAndFeel extends JFrame {
   private String[] choices =

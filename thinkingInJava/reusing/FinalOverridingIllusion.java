@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/FinalOverridingIllusion.java
 // It only looks like you can override
 // a private or private final method.

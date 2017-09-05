@@ -1,5 +1,4 @@
-//: innerclasses/BigEgg.java
-// An inner class cannot be overriden like a method.
+package innerclasses;
 import static net.mindview.util.Print.*;
 
 class Egg {

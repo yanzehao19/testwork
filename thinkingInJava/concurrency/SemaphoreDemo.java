@@ -3,8 +3,10 @@ package concurrency;
 //: concurrency/SemaphoreDemo.java
 // Testing the Pool class
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 // A task to check a resource out of a pool:
 class CheckoutTask<T> implements Runnable {

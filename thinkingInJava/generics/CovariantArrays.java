@@ -1,3 +1,4 @@
+package generics;
 //: generics/CovariantArrays.java
 
 class Fruit {}

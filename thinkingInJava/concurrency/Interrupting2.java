@@ -1,10 +1,11 @@
 package concurrency;
 
+import static net.mindview.util.Print.*;
+
 //: concurrency/Interrupting2.java
 // Interrupting a task blocked with a ReentrantLock.
 import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
-import static net.mindview.util.Print.*;
 
 class BlockedMutex {
   private Lock lock = new ReentrantLock();

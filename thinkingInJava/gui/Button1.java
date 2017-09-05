@@ -1,8 +1,11 @@
+package gui;
 //: gui/Button1.java
 // Putting buttons on a Swing application.
 import javax.swing.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class Button1 extends JFrame {
   private JButton

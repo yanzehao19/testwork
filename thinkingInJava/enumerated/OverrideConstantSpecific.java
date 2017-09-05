@@ -1,4 +1,4 @@
-//: enumerated/OverrideConstantSpecific.java
+package enumerated;
 import static net.mindview.util.Print.*;
 
 public enum OverrideConstantSpecific {

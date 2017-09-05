@@ -1,8 +1,11 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/Reverse.java
 // The Collections.reverseOrder() Comparator
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class Reverse {
   public static void main(String[] args) {

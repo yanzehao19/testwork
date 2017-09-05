@@ -1,10 +1,13 @@
+package gui;
 //: gui/TrackEvent.java
 // Show events as they happen.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class TrackEvent extends JFrame {
   private HashMap<String,JTextField> h =

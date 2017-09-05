@@ -1,8 +1,11 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/TestArrayGeneration.java
 // Test the tools that use generators to fill arrays.
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class TestArrayGeneration {
   public static void main(String[] args) {

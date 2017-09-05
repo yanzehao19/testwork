@@ -1,5 +1,4 @@
-//: initialization/InitialValues.java
-// Shows default initial values.
+package initialization;
 import static net.mindview.util.Print.*;
 
 public class InitialValues {

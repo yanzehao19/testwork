@@ -3,10 +3,13 @@
 // {RunByHand}
 package net.mindview.atunit;
 import java.lang.reflect.*;
+
+import static net.mindview.util.Print.*;
+
 import java.io.*;
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 public class AtUnit implements ProcessFiles.Strategy {
   static Class<?> testClass;

@@ -1,3 +1,4 @@
+package strings;
 //: strings/InfiniteRecursion.java
 // Accidental recursion.
 // {RunByHand}

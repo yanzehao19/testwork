@@ -1,3 +1,4 @@
+package access;
 //: access/IceCream.java
 // Demonstrates "private" keyword.
 

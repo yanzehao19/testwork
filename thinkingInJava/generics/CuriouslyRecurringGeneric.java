@@ -1,3 +1,4 @@
+package generics;
 //: generics/CuriouslyRecurringGeneric.java
 
 class GenericType<T> {}

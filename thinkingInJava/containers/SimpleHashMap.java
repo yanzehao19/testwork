@@ -1,6 +1,8 @@
+package containers;
 //: containers/SimpleHashMap.java
 // A demonstration hashed Map.
 import java.util.*;
+
 import net.mindview.util.*;
 
 public class SimpleHashMap<K,V> extends AbstractMap<K,V> {

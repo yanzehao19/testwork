@@ -1,9 +1,12 @@
+package gui;
 //: gui/Borders.java
 // Different Swing borders.
 import javax.swing.*;
 import javax.swing.border.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class Borders extends JFrame {
   static JPanel showBorder(Border b) {

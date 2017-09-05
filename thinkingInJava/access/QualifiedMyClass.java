@@ -1,3 +1,4 @@
+package access;
 //: access/QualifiedMyClass.java
 
 public class QualifiedMyClass {

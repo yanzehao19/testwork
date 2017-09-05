@@ -5,8 +5,10 @@ package concurrency;
 // objects," or other active objects as arguments
 // to asynch methods.
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 public class ActiveObjectDemo {
   private ExecutorService ex =

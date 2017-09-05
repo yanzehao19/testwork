@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/SpaceShipControls.java
 
 public class SpaceShipControls {

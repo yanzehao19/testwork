@@ -1,8 +1,11 @@
+package concurrency;
 //: concurrency/TestBlockingQueues.java
 // {RunByHand}
 import java.util.concurrent.*;
-import java.io.*;
+
 import static net.mindview.util.Print.*;
+
+import java.io.*;
 
 class LiftOffRunner implements Runnable {
   private BlockingQueue<LiftOff> rockets;

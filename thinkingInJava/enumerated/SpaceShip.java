@@ -1,3 +1,4 @@
+package enumerated;
 //: enumerated/SpaceShip.java
 public enum SpaceShip {
   SCOUT, CARGO, TRANSPORT, CRUISER, BATTLESHIP, MOTHERSHIP;

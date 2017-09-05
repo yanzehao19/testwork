@@ -1,9 +1,12 @@
+package gui;
 //: gui/MessageBoxes.java
 // Demonstrates JOptionPane.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class MessageBoxes extends JFrame {
   private JButton[] b = {

@@ -1,3 +1,4 @@
+package strings;
 //: strings/WhitherStringBuilder.java
 
 public class WhitherStringBuilder {

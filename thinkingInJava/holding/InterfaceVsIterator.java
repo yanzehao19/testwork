@@ -1,6 +1,7 @@
-//: holding/InterfaceVsIterator.java
-import typeinfo.pets.*;
+package holding;
 import java.util.*;
+
+import typeinfo.pets.*;
 
 public class InterfaceVsIterator {
   public static void display(Iterator<Pet> it) {

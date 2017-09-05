@@ -2,10 +2,12 @@
 // {Timeout: 5} Abort after 5 seconds when testing
 package bangbean;
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class BangBeanTest extends JFrame {
   private JTextField txt = new JTextField(20);

@@ -1,3 +1,4 @@
+package generics;
 //: generics/Holder2.java
 
 public class Holder2 {

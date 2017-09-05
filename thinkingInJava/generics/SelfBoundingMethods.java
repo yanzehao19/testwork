@@ -1,3 +1,4 @@
+package generics;
 //: generics/SelfBoundingMethods.java
 
 public class SelfBoundingMethods {

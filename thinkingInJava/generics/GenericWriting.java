@@ -1,3 +1,4 @@
+package generics;
 //: generics/GenericWriting.java
 import java.util.*;
 

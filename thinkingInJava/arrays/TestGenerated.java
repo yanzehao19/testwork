@@ -1,5 +1,7 @@
+package arrays;
 //: arrays/TestGenerated.java
 import java.util.*;
+
 import net.mindview.util.*;
 
 public class TestGenerated {

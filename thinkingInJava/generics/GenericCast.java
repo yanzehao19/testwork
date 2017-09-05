@@ -1,3 +1,4 @@
+package generics;
 //: generics/GenericCast.java
 
 class FixedSizeStack<T> {

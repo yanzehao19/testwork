@@ -1,5 +1,4 @@
-//: innerclasses/Games.java
-// Using anonymous inner classes with the Game framework.
+package innerclasses;
 import static net.mindview.util.Print.*;
 
 interface Game { boolean move(); }

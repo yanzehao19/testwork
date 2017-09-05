@@ -1,6 +1,7 @@
-//: generics/TupleTest2.java
-import net.mindview.util.*;
+package generics;
 import static net.mindview.util.Tuple.*;
+
+import net.mindview.util.*;
 
 public class TupleTest2 {
   static TwoTuple<String,Integer> f() {

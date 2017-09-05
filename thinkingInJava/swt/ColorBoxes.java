@@ -1,14 +1,17 @@
+package swt;
 //: swt/ColorBoxes.java
 // SWT translation of Swing ColorBoxes.java.
-import swt.util.*;
 import org.eclipse.swt.*;
 import org.eclipse.swt.widgets.*;
+
+import net.mindview.util.*;
+import swt.util.*;
+
 import org.eclipse.swt.events.*;
 import org.eclipse.swt.graphics.*;
 import org.eclipse.swt.layout.*;
 import java.util.concurrent.*;
 import java.util.*;
-import net.mindview.util.*;
 
 class CBox extends Canvas implements Runnable {
   class CBoxPaintListener implements PaintListener {

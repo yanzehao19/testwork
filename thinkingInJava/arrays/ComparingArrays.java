@@ -1,7 +1,9 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/ComparingArrays.java
 // Using Arrays.equals()
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class ComparingArrays {
   public static void main(String[] args) {

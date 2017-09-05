@@ -1,3 +1,4 @@
+package generics;
 //: generics/SuperTypeWildcards.java
 import java.util.*;
 

@@ -1,6 +1,8 @@
+package containers;
 //: containers/SlowMap.java
 // A Map implemented with ArrayLists.
 import java.util.*;
+
 import net.mindview.util.*;
 
 public class SlowMap<K,V> extends AbstractMap<K,V> {

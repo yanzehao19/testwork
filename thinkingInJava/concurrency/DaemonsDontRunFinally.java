@@ -1,9 +1,10 @@
 package concurrency;
 
+import static net.mindview.util.Print.*;
+
 //: concurrency/DaemonsDontRunFinally.java
 // Daemon threads don't run the finally clause
 import java.util.concurrent.*;
-import static net.mindview.util.Print.*;
 
 class ADaemon implements Runnable {
   public void run() {

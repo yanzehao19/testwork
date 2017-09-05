@@ -1,7 +1,9 @@
+package containers;
+import static net.mindview.util.Print.*;
+
 //: containers/CountedString.java
 // Creating a good hashCode().
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class CountedString {
   private static List<String> created =

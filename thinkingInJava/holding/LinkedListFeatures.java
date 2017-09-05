@@ -1,7 +1,9 @@
-//: holding/LinkedListFeatures.java
-import typeinfo.pets.*;
-import java.util.*;
+package holding;
 import static net.mindview.util.Print.*;
+
+import java.util.*;
+
+import typeinfo.pets.*;
 
 public class LinkedListFeatures {
   public static void main(String[] args) {

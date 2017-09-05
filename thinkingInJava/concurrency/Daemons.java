@@ -1,7 +1,9 @@
+package concurrency;
+import static net.mindview.util.Print.*;
+
 //: concurrency/Daemons.java
 // Daemon threads spawn other daemon threads.
 import java.util.concurrent.*;
-import static net.mindview.util.Print.*;
 
 class Daemon implements Runnable {
   private Thread[] t = new Thread[10];

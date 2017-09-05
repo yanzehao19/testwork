@@ -1,7 +1,8 @@
-//: generics/ExplicitTypeSpecification.java
-import typeinfo.pets.*;
+package generics;
 import java.util.*;
+
 import net.mindview.util.*;
+import typeinfo.pets.*;
 
 public class ExplicitTypeSpecification {
   static void f(Map<Person, List<Pet>> petPeople) {}

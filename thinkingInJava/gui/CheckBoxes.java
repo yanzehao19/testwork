@@ -1,9 +1,12 @@
+package gui;
 //: gui/CheckBoxes.java
 // Using JCheckBoxes.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class CheckBoxes extends JFrame {
   private JTextArea t = new JTextArea(6, 15);

@@ -1,3 +1,4 @@
+package generics;
 //: generics/SimpleDogsAndRobots.java
 // Removing the generic; code still works.
 

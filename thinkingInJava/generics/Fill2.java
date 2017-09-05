@@ -1,10 +1,13 @@
+package generics;
+import static net.mindview.util.Print.*;
+
 //: generics/Fill2.java
 // Using adapters to simulate latent typing.
 // {main: Fill2Test}
-import generics.coffee.*;
 import java.util.*;
+
+import generics.coffee.*;
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 interface Addable<T> { void add(T t); }
 

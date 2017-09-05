@@ -2,6 +2,7 @@
 // Basics of EnumMaps.
 package enumerated;
 import java.util.*;
+
 import static enumerated.AlarmPoints.*;
 import static net.mindview.util.Print.*;
 

@@ -1,5 +1,4 @@
-//: enumerated/OzWitch.java
-// The witches in the land of Oz.
+package enumerated;
 import static net.mindview.util.Print.*;
 
 public enum OzWitch {

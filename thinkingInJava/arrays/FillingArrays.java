@@ -1,7 +1,9 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/FillingArrays.java
 // Using Arrays.fill()
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class FillingArrays {
   public static void main(String[] args) {

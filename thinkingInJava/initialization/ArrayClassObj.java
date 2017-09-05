@@ -1,7 +1,9 @@
+package initialization;
+import static net.mindview.util.Print.*;
+
 //: initialization/ArrayClassObj.java
 // Creating an array of nonprimitive objects.
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class ArrayClassObj {
   public static void main(String[] args) {

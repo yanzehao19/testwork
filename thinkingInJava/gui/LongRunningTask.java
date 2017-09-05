@@ -1,10 +1,13 @@
+package gui;
 //: gui/LongRunningTask.java
 // A badly designed program.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.concurrent.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class LongRunningTask extends JFrame {
   private JButton

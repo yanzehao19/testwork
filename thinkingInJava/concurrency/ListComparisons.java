@@ -1,9 +1,12 @@
+package concurrency;
 //: concurrency/ListComparisons.java
 // {Args: 1 10 10} (Fast verification check during build)
 // Rough comparison of thread-safe List performance.
 import java.util.concurrent.*;
-import java.util.*;
+
 import net.mindview.util.*;
+
+import java.util.*;
 
 abstract class ListTest extends Tester<List<Integer>> {
   ListTest(String testId, int nReaders, int nWriters) {

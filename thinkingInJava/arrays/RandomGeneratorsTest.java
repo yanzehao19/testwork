@@ -1,4 +1,4 @@
-//: arrays/RandomGeneratorsTest.java
+package arrays;
 import net.mindview.util.*;
 
 public class RandomGeneratorsTest {

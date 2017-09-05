@@ -1,9 +1,13 @@
+package containers;
 //: containers/Maps.java
 // Things you can do with Maps.
 import java.util.concurrent.*;
-import java.util.*;
+
 import net.mindview.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 public class Maps {
   public static void printKeys(Map<Integer,String> map) {

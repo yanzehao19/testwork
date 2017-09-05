@@ -1,3 +1,4 @@
+package generics;
 //: generics/Holder.java
 
 public class Holder<T> {

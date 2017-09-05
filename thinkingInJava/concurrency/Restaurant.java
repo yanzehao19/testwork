@@ -1,7 +1,9 @@
+package concurrency;
+import static net.mindview.util.Print.*;
+
 //: concurrency/Restaurant.java
 // The producer-consumer approach to task cooperation.
 import java.util.concurrent.*;
-import static net.mindview.util.Print.*;
 
 class Meal {
   private final int orderNum;

@@ -1,4 +1,4 @@
-//: control/IfElse2.java
+package control;
 import static net.mindview.util.Print.*;
 
 public class IfElse2 {

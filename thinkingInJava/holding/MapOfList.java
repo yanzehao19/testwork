@@ -1,8 +1,10 @@
 //: holding/MapOfList.java
 package holding;
-import typeinfo.pets.*;
-import java.util.*;
 import static net.mindview.util.Print.*;
+
+import java.util.*;
+
+import typeinfo.pets.*;
 
 public class MapOfList {
   public static Map<Person, List<? extends Pet>>

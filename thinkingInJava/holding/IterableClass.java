@@ -1,3 +1,4 @@
+package holding;
 //: holding/IterableClass.java
 // Anything Iterable works with foreach.
 import java.util.*;

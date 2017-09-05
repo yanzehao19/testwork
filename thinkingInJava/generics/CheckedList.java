@@ -1,7 +1,7 @@
-//: generics/CheckedList.java
-// Using Collection.checkedList().
-import typeinfo.pets.*;
+package generics;
 import java.util.*;
+
+import typeinfo.pets.*;
 
 public class CheckedList {
   @SuppressWarnings("unchecked")

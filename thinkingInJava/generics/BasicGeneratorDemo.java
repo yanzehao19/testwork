@@ -1,4 +1,4 @@
-//: generics/BasicGeneratorDemo.java
+package generics;
 import net.mindview.util.*;
 
 public class BasicGeneratorDemo {

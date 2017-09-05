@@ -1,3 +1,4 @@
+package access;
 //: access/Cake.java
 // Accesses a class in a separate compilation unit.
 

@@ -1,9 +1,12 @@
+package gui;
 //: gui/Button2.java
 // Responding to button presses.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class Button2 extends JFrame {
   private JButton

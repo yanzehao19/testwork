@@ -1,5 +1,4 @@
-//: enumerated/SecurityCategory.java
-// More succinct subcategorization of enums.
+package enumerated;
 import net.mindview.util.*;
 
 enum SecurityCategory {

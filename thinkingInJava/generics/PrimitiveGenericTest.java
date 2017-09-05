@@ -1,4 +1,4 @@
-//: generics/PrimitiveGenericTest.java
+package generics;
 import net.mindview.util.*;
 
 // Fill an array using a generator:

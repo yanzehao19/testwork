@@ -1,6 +1,8 @@
+package strings;
 //: strings/Finding.java
-import java.util.regex.*;
 import static net.mindview.util.Print.*;
+
+import java.util.regex.*;
 
 public class Finding {
   public static void main(String[] args) {

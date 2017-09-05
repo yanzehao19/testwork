@@ -2,8 +2,10 @@ package concurrency;
 
 //: concurrency/OrnamentalGarden.java
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 class Count {
   private int count = 0;

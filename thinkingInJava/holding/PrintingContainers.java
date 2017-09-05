@@ -1,7 +1,9 @@
+package holding;
+import static net.mindview.util.Print.*;
+
 //: holding/PrintingContainers.java
 // Containers print themselves automatically.
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class PrintingContainers {
   static Collection fill(Collection<String> collection) {

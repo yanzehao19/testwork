@@ -1,8 +1,10 @@
+package io;
+import static net.mindview.util.Print.*;
+
 //: io/Endians.java
 // Endian differences and data storage.
 import java.nio.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class Endians {
   public static void main(String[] args) {

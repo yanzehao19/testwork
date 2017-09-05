@@ -1,7 +1,10 @@
+package concurrency;
 //: concurrency/PriorityBlockingQueueDemo.java
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 class PrioritizedTask implements
 Runnable, Comparable<PrioritizedTask>  {

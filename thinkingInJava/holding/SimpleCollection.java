@@ -1,3 +1,4 @@
+package holding;
 //: holding/SimpleCollection.java
 import java.util.*;
 

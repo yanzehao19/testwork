@@ -1,7 +1,9 @@
+package initialization;
+import static net.mindview.util.Print.*;
+
 //: initialization/ArrayNew.java
 // Creating arrays with new.
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class ArrayNew {
   public static void main(String[] args) {

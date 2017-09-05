@@ -1,3 +1,4 @@
+package swt;
 //: swt/HelloSWT.java
 // {Requires: org.eclipse.swt.widgets.Display; You must
 // install the SWT library from http://www.eclipse.org }

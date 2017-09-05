@@ -1,11 +1,15 @@
+package gui;
 //: gui/InterruptableLongRunningCallable.java
 // Using Callables for long-running tasks.
 import javax.swing.*;
+
+import net.mindview.util.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.concurrent.*;
-import net.mindview.util.*;
-import static net.mindview.util.SwingConsole.*;
 
 class CallableTask extends Task
 implements Callable<String> {

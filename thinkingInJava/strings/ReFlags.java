@@ -1,3 +1,4 @@
+package strings;
 //: strings/ReFlags.java
 import java.util.regex.*;
 

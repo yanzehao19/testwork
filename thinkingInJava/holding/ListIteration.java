@@ -1,6 +1,7 @@
-//: holding/ListIteration.java
-import typeinfo.pets.*;
+package holding;
 import java.util.*;
+
+import typeinfo.pets.*;
 
 public class ListIteration {
   public static void main(String[] args) {

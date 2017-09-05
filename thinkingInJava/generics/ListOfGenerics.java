@@ -1,3 +1,4 @@
+package generics;
 //: generics/ListOfGenerics.java
 import java.util.*;
 

@@ -1,9 +1,12 @@
+package gui;
 //: gui/Popup.java
 // Creating popup menus with Swing.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class Popup extends JFrame {
   private JPopupMenu popup = new JPopupMenu();

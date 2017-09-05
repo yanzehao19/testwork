@@ -1,5 +1,4 @@
-//: initialization/StaticInitialization.java
-// Specifying initial values in a class definition.
+package initialization;
 import static net.mindview.util.Print.*;
 
 class Bowl {

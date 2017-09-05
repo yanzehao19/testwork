@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/Wind.java
 // Inheritance & upcasting.
 

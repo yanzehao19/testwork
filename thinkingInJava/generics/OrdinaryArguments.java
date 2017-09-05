@@ -1,3 +1,4 @@
+package generics;
 //: generics/OrdinaryArguments.java
 
 class OrdinarySetter {

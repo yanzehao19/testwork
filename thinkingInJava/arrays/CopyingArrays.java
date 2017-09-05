@@ -1,7 +1,9 @@
+package arrays;
+import static net.mindview.util.Print.*;
+
 //: arrays/CopyingArrays.java
 // Using System.arraycopy()
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class CopyingArrays {
   public static void main(String[] args) {

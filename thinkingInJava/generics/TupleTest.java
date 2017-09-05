@@ -1,4 +1,4 @@
-//: generics/TupleTest.java
+package generics;
 import net.mindview.util.*;
 
 class Amphibian {}

@@ -1,3 +1,4 @@
+package generics;
 //: generics/Unconstrained.java
 
 class Other {}

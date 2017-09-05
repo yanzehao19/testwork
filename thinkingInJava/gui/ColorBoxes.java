@@ -1,10 +1,13 @@
+package gui;
 //: gui/ColorBoxes.java
 // A visual demonstration of threading.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.util.concurrent.*;
 import java.util.*;
-import static net.mindview.util.SwingConsole.*;
 
 class CBox extends JPanel implements Runnable {
   private int pause;

@@ -1,9 +1,12 @@
+package gui;
 //: gui/Faces.java
 // Icon behavior in JButtons.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class Faces extends JFrame {
   private static Icon[] faces;

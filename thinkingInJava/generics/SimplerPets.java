@@ -1,7 +1,8 @@
-//: generics/SimplerPets.java
-import typeinfo.pets.*;
+package generics;
 import java.util.*;
+
 import net.mindview.util.*;
+import typeinfo.pets.*;
 
 public class SimplerPets {
   public static void main(String[] args) {

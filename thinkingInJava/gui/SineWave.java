@@ -1,9 +1,12 @@
+package gui;
 //: gui/SineWave.java
 // Drawing with Swing, using a JSlider.
 import javax.swing.*;
 import javax.swing.event.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 class SineDraw extends JPanel {
   private static final int SCALEFACTOR = 200;

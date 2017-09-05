@@ -1,11 +1,15 @@
+package gui;
 //: gui/TextArea.java
 // Using the JTextArea control.
 import javax.swing.*;
+
+import net.mindview.util.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-import net.mindview.util.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class TextArea extends JFrame {
   private JButton

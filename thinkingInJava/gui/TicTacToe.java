@@ -1,9 +1,12 @@
+package gui;
 //: gui/TicTacToe.java
 // Dialog boxes and creating your own components.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class TicTacToe extends JFrame {
   private JTextField

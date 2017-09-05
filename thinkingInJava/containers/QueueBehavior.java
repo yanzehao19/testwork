@@ -1,8 +1,11 @@
+package containers;
 //: containers/QueueBehavior.java
 // Compares the behavior of some of the queues
 import java.util.concurrent.*;
-import java.util.*;
+
 import net.mindview.util.*;
+
+import java.util.*;
 
 public class QueueBehavior {
   private static int count = 10;

@@ -1,5 +1,4 @@
-//: concurrency/MultiLock.java
-// One thread can reacquire the same lock.
+package concurrency;
 import static net.mindview.util.Print.*;
 
 public class MultiLock {

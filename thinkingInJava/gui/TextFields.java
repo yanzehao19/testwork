@@ -1,11 +1,14 @@
+package gui;
 //: gui/TextFields.java
 // Text fields and Java events.
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.text.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class TextFields extends JFrame {
   private JButton

@@ -1,5 +1,4 @@
-//: enumerated/NotClasses.java
-// {Exec: javap -c LikeClasses}
+package enumerated;
 import static net.mindview.util.Print.*;
 
 enum LikeClasses {

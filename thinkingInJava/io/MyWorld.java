@@ -1,7 +1,9 @@
+package io;
+import static net.mindview.util.Print.*;
+
 //: io/MyWorld.java
 import java.io.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 class House implements Serializable {}
 

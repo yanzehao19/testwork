@@ -1,6 +1,4 @@
-//: containers/RandomBounds.java
-// Does Math.random() produce 0.0 and 1.0?
-// {RunByHand}
+package containers;
 import static net.mindview.util.Print.*;
 
 public class RandomBounds {

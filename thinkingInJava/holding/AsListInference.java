@@ -1,3 +1,4 @@
+package holding;
 //: holding/AsListInference.java
 // Arrays.asList() makes its best guess about type.
 import java.util.*;

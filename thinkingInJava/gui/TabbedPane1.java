@@ -1,9 +1,12 @@
+package gui;
 //: gui/TabbedPane1.java
 // Demonstrates the Tabbed Pane.
 import javax.swing.*;
 import javax.swing.event.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class TabbedPane1 extends JFrame {
   private String[] flavors = {

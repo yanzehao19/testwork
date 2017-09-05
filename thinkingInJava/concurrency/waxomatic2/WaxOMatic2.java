@@ -1,9 +1,10 @@
 //: concurrency/waxomatic2/WaxOMatic2.java
 // Using Lock and Condition objects.
 package concurrency.waxomatic2;
+import static net.mindview.util.Print.*;
+
 import java.util.concurrent.*;
 import java.util.concurrent.locks.*;
-import static net.mindview.util.Print.*;
 
 class Car {
   private Lock lock = new ReentrantLock();

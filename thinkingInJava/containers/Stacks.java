@@ -1,7 +1,9 @@
+package containers;
+import static net.mindview.util.Print.*;
+
 //: containers/Stacks.java
 // Demonstration of Stack Class.
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 enum Month { JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE,
   JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER }

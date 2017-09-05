@@ -1,3 +1,4 @@
+package generics;
 //: generics/CovariantReturnTypes.java
 
 class Base {}

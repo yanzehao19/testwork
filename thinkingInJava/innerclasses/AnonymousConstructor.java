@@ -1,5 +1,4 @@
-//: innerclasses/AnonymousConstructor.java
-// Creating a constructor for an anonymous inner class.
+package innerclasses;
 import static net.mindview.util.Print.*;
 
 abstract class Base {

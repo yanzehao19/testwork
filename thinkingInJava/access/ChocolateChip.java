@@ -1,5 +1,4 @@
-//: access/ChocolateChip.java
-// Can't use package-access member from another package.
+package access;
 import access.dessert.*;
 
 public class ChocolateChip extends Cookie {

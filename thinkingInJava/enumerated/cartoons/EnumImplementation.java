@@ -2,6 +2,7 @@
 // An enum can implement an interface
 package enumerated.cartoons;
 import java.util.*;
+
 import net.mindview.util.*;
 
 enum CartoonCharacter

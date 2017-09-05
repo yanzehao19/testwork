@@ -1,7 +1,9 @@
+package exceptions;
+import static net.mindview.util.Print.*;
+
 //: exceptions/TurnOffChecking.java
 // "Turning off" Checked exceptions.
 import java.io.*;
-import static net.mindview.util.Print.*;
 
 class WrapCheckedException {
   void throwRuntimeException(int type) {

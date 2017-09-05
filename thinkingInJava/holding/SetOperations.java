@@ -1,6 +1,8 @@
+package holding;
+import static net.mindview.util.Print.*;
+
 //: holding/SetOperations.java
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 public class SetOperations {
   public static void main(String[] args) {

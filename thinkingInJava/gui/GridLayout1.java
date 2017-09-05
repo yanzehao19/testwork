@@ -1,8 +1,11 @@
+package gui;
 //: gui/GridLayout1.java
 // Demonstrates GridLayout.
 import javax.swing.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class GridLayout1 extends JFrame {
   public GridLayout1() {

@@ -1,8 +1,11 @@
+package concurrency;
 //: concurrency/ToastOMatic.java
 // A toaster that uses queues.
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 class Toast {
   public enum Status { DRY, BUTTERED, JAMMED }

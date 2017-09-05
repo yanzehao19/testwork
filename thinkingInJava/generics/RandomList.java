@@ -1,3 +1,4 @@
+package generics;
 //: generics/RandomList.java
 import java.util.*;
 

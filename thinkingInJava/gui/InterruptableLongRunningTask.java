@@ -1,10 +1,13 @@
+package gui;
 //: gui/InterruptableLongRunningTask.java
 // Long-running tasks in threads.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.concurrent.*;
-import static net.mindview.util.SwingConsole.*;
 
 class Task implements Runnable {
   private static int counter = 0;

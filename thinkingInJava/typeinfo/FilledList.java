@@ -1,3 +1,4 @@
+package typeinfo;
 //: typeinfo/FilledList.java
 import java.util.*;
 

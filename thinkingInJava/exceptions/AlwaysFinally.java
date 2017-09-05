@@ -1,5 +1,4 @@
-//: exceptions/AlwaysFinally.java
-// Finally is always executed.
+package exceptions;
 import static net.mindview.util.Print.*;
 
 class FourException extends Exception {}

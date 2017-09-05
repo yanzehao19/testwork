@@ -1,11 +1,14 @@
+package gui;
 //: gui/ShowAddListeners.java
 // Display the "addXXXListener" methods of any Swing class.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.lang.reflect.*;
 import java.util.regex.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class ShowAddListeners extends JFrame {
   private JTextField name = new JTextField(25);

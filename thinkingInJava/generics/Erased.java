@@ -1,3 +1,4 @@
+package generics;
 //: generics/Erased.java
 // {CompileTimeError} (Won't compile)
 

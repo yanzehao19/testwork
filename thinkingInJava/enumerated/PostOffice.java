@@ -1,8 +1,11 @@
+package enumerated;
+import static net.mindview.util.Print.*;
+
 //: enumerated/PostOffice.java
 // Modeling a post office.
 import java.util.*;
+
 import net.mindview.util.*;
-import static net.mindview.util.Print.*;
 
 class Mail {
   // The NO's lower the probability of random selection:

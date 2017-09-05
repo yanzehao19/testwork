@@ -1,9 +1,12 @@
+package concurrency;
 //: concurrency/PipedIO.java
 // Using pipes for inter-task I/O
 import java.util.concurrent.*;
+
+import static net.mindview.util.Print.*;
+
 import java.io.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 class Sender implements Runnable {
   private Random rand = new Random(47);

@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/SprinklerSystem.java
 // Composition for code reuse.
 

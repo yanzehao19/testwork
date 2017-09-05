@@ -1,3 +1,4 @@
+package generics;
 //: generics/ErasedTypeEquivalence.java
 import java.util.*;
 

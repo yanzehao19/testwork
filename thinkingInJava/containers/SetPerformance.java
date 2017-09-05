@@ -1,3 +1,4 @@
+package containers;
 //: containers/SetPerformance.java
 // Demonstrates performance differences in Sets.
 // {Args: 100 5000} Small to keep build testing short

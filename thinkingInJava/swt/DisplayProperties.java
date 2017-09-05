@@ -1,3 +1,4 @@
+package swt;
 //: swt/DisplayProperties.java
 import org.eclipse.swt.*;
 import org.eclipse.swt.widgets.*;

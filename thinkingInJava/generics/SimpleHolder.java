@@ -1,3 +1,4 @@
+package generics;
 //: generics/SimpleHolder.java
 
 public class SimpleHolder {

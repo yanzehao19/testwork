@@ -1,8 +1,11 @@
+package concurrency;
 //: concurrency/HorseRace.java
 // Using CyclicBarriers.
 import java.util.concurrent.*;
-import java.util.*;
+
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 class Horse implements Runnable {
   private static int counter = 0;

@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/SpaceShipDelegation.java
 
 public class SpaceShipDelegation {

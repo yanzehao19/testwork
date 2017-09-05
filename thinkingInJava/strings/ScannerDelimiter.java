@@ -1,3 +1,4 @@
+package strings;
 //: strings/ScannerDelimiter.java
 import java.util.*;
 

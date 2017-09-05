@@ -1,7 +1,8 @@
 //: interfaces/classprocessor/Apply.java
 package interfaces.classprocessor;
-import java.util.*;
 import static net.mindview.util.Print.*;
+
+import java.util.*;
 
 class Processor {
   public String name() {

@@ -1,5 +1,4 @@
-//: initialization/Mugs.java
-// Java "Instance Initialization."
+package initialization;
 import static net.mindview.util.Print.*;
 
 class Mug {

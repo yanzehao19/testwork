@@ -1,9 +1,12 @@
+package gui;
 //: gui/Button2b.java
 // Using anonymous inner classes.
 import javax.swing.*;
+
+import static net.mindview.util.SwingConsole.*;
+
 import java.awt.*;
 import java.awt.event.*;
-import static net.mindview.util.SwingConsole.*;
 
 public class Button2b extends JFrame {
   private JButton

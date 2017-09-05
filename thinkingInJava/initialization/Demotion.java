@@ -1,5 +1,4 @@
-//: initialization/Demotion.java
-// Demotion of primitives and overloading.
+package initialization;
 import static net.mindview.util.Print.*;
 
 public class Demotion {

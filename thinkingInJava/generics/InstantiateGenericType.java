@@ -1,4 +1,4 @@
-//: generics/InstantiateGenericType.java
+package generics;
 import static net.mindview.util.Print.*;
 
 class ClassAsFactory<T> {

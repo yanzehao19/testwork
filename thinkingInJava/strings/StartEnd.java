@@ -1,6 +1,8 @@
+package strings;
 //: strings/StartEnd.java
-import java.util.regex.*;
 import static net.mindview.util.Print.*;
+
+import java.util.regex.*;
 
 public class StartEnd {
   public static String input =

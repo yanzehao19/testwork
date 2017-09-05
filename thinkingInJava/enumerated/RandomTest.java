@@ -1,4 +1,4 @@
-//: enumerated/RandomTest.java
+package enumerated;
 import net.mindview.util.*;
 
 enum Activity { SITTING, LYING, STANDING, HOPPING,

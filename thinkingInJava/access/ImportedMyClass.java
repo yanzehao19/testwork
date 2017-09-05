@@ -1,4 +1,4 @@
-//: access/ImportedMyClass.java
+package access;
 import access.mypackage.*;
 
 public class ImportedMyClass {

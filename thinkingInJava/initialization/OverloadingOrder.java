@@ -1,5 +1,4 @@
-//: initialization/OverloadingOrder.java
-// Overloading based on the order of the arguments.
+package initialization;
 import static net.mindview.util.Print.*;
 
 public class OverloadingOrder {

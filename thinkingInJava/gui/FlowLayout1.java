@@ -1,8 +1,11 @@
+package gui;
 //: gui/FlowLayout1.java
 // Demonstrates FlowLayout.
 import javax.swing.*;
-import java.awt.*;
+
 import static net.mindview.util.SwingConsole.*;
+
+import java.awt.*;
 
 public class FlowLayout1 extends JFrame {
   public FlowLayout1() {

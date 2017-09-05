@@ -1,3 +1,4 @@
+package reusing;
 //: reusing/Orc.java
 // The protected keyword.
 import static net.mindview.util.Print.*;

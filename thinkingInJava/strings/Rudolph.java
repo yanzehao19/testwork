@@ -1,3 +1,4 @@
+package strings;
 //: strings/Rudolph.java
 
 public class Rudolph {

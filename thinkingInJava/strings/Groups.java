@@ -1,6 +1,8 @@
+package strings;
 //: strings/Groups.java
-import java.util.regex.*;
 import static net.mindview.util.Print.*;
+
+import java.util.regex.*;
 
 public class Groups {
   static public final String POEM =

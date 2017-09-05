@@ -1,6 +1,8 @@
+package strings;
 //: strings/ArrayListDisplay.java
-import generics.coffee.*;
 import java.util.*;
+
+import generics.coffee.*;
 
 public class ArrayListDisplay {
   public static void main(String[] args) {

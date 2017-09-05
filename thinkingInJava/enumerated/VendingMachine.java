@@ -2,7 +2,9 @@
 // {Args: VendingMachineInput.txt}
 package enumerated;
 import java.util.*;
+
 import net.mindview.util.*;
+
 import static enumerated.Input.*;
 import static net.mindview.util.Print.*;
 

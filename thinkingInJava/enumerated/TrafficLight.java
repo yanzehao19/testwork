@@ -1,5 +1,4 @@
-//: enumerated/TrafficLight.java
-// Enums in switch statements.
+package enumerated;
 import static net.mindview.util.Print.*;
 
 // Define an enum type:
