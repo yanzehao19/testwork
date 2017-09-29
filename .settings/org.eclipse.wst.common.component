@@ -14,5 +14,7 @@
         <wb-resource deploy-path="/" source-path="/activiti"/>
         <wb-resource deploy-path="/" source-path="/poi"/>
         <wb-resource deploy-path="/" source-path="/thinkingInJava"/>
+        <wb-resource deploy-path="/" source-path="/alibabaStandard"/>
+        <wb-resource deploy-path="/" source-path="/algorithm"/>
     </wb-module>
 </project-modules>
