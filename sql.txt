@@ -1,0 +1,98 @@
+select *  columnName from tableName
+
+select distinct columnName from tableName
+
+
+select columnName from tableName where columnNmae operator value  and (alexa>50  or country='cn')
+
+
+
+select columnNmae from tableName order by columnName ,columnName  asc|desc
+ 
+
+insert into tableName values £¨value1,value2,value3...£©
+
+
+insert into tableName (column1,column2,column3...) values (value1,value2....)
+
+update tableName set column1=value1,column2=value2... where someColumn=someValue
+
+delete from tableName where someColumn=someValue
+
+select top number|percent columnName from tableName
+
+select columnName from tableName limit number
+
+select columnName from tableName where rownum <=number
+
+select columnName from tableName where columnName  not like pattern
+
+select columnName from tableName where columnName in (value1,value2...)
+
+select columnName from tableName where columnName not between value1 and value2 and not country in ('use','ind')
+
+select columnName as aliasName form tableName as aliasName
+
+select name, concat(url,',',alexa) as siteInfo from tableName
+
+select t1.* ,t2.*  from website t1 inner join accessLog t2 on t1.id=t2.siteId
+
+select columnName from table1 left|right join table2 on table1.columnName=table2.columnName
+
+select columnNames from table1 union all select columnNames from table2
+
+
+create table ÐÂ±í select * from ¾É±í
+
+select * into newtable [in externaldb] from table1
+
+select t1.name, t2.count into newtable from t1 left join t2 on t1.id=t2.id
+
+insert into table2 select * from table1
+
+create database dbname
+
+create table tablename ( columnname1 datatype(size) not null,columnname2 datatype(size))
+
+
+alter table person add unique (p_id)
+
+alter table persons add constraint ucpersonid unique (pid,lastname)
+
+alter table persons drop index ucpersonid
+
+create table orders (oid int not null,pid int check(pid>0) ,primary key(oid),foreign key £¨pid£©references persons(pid))
+
+create index indexname on tablename (columnname)
+
+create unique index indexnam on tablename £¨columnname£©
+
+create index pindex on persons (lastname,firstname)
+
+drop index indexname on tablename
+
+drop table tablename
+drop database dataname
+
+truncate table tablename
+
+alter table tablename
+add columnname datatype
+
+alter table tablename drop column columnname\
+
+
+create view viewname as select columnname from tablename where condition
+
+select avg(columnname) from tablename
+
+select count(distinct columnname) from tablename
+
+select first(columnname) from tablename
+
+select last(columnname) from tablename
+
+select columnname,aggregatefunction(columnname) from tablename where columnname operator value group by columnname having aggregatefunction(columnname) operate value
+
+
+
