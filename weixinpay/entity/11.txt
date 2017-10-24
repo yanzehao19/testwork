@@ -1,0 +1,16 @@
+  /**
+     * 应用编号（微信公众号编号）
+     */
+    private @Value("${app_id}") String appId;
+    /**
+     * 商户号码
+     */
+    private @Value("${mch_id}") String mchId;
+    /**
+     * 支付码
+     */
+    private @Value("${pay_key}") String payKey;
+    /**
+     * 统一下单URL
+     */
+    private @Value("${pay_unifiedorder_url}") String unifiedOrderUrl;

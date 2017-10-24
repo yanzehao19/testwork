@@ -16,5 +16,7 @@
         <wb-resource deploy-path="/" source-path="/thinkingInJava"/>
         <wb-resource deploy-path="/" source-path="/alibabaStandard"/>
         <wb-resource deploy-path="/" source-path="/algorithm"/>
+        <wb-resource deploy-path="/" source-path="/wexinjiben"/>
+        <wb-resource deploy-path="/" source-path="/weixinpay"/>
     </wb-module>
 </project-modules>

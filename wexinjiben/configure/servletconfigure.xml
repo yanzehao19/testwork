@@ -1,0 +1,9 @@
+<servlet>
+<servlet-name>WeixinServlet</servlet-name>
+<servlet-class>weixin.servlet.WeixinServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>WeixinServlet</servlet-name>
+<url-pattern>/wx.do</url-pattern>
+</servlet-mapping>

@@ -22,3 +22,5 @@ public class DaoPatternDemo {
 	         +student.getRollNo()+", Name : "+student.getName()+" ]");		
 	   }
 }
+
+
