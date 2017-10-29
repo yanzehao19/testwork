@@ -1,0 +1,7 @@
+//自定义的模板
+<template name="quantity">
+ <view>
+   <text> "我们" </text>
+   <text> Time: 2018 </text>
+ </view>
+</template>

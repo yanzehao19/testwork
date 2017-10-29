@@ -1,0 +1,100 @@
+.top {
+  background-color: #00bfff;
+}
+
+.locate {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  width: 40rpx;
+  height: 40rpx;
+  margin: 5rpx;
+}
+
+.search {
+  display: flex;
+  margin-left: 50px;
+  background-color: white;
+  width: 70%;
+}
+
+.navs {
+  display: flex;
+}
+
+.nav-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+.nav-item .nav-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 5rpx;
+}
+
+.nav-item text {
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: gray;
+}
+
+.recommend {
+  display: block;
+}
+
+.recommend-item {
+  width: 100%;
+  display: block;
+  align-items: top;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+.recommend-item .recommend-image {
+  width: 50px;
+  height: 50px;
+  margin: 5rpx;
+  display: inline-block;
+  background-color: #eee;
+}
+
+.recommend-item .wrapper {
+  display: inline-block;
+  margin: 10px;
+}
+
+.recommend-item .wrapper view {
+  font-size: 25rpx;
+  color: gray;
+  display: block;
+  text-align: left;
+}
+
+.recommend-item .wrapper1 {
+  display: inline-block;
+  margin: 10px;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+}
+
+.recommend-item .wrapper1 view{
+  font-size: 25rpx;
+  color: gray;
+  display: block;
+  text-align: right;
+}
+
+
+.line{
+  width: 90%;
+  height: 2rpx;
+  background:  	#B0C4DE
+
+}

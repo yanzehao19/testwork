@@ -1,0 +1,14 @@
+//自定义的模板
+<template name="quantity">
+  <view>
+
+    <view class="stepper">  
+    <!-- 减号 -->  
+    <text class="{{minusStatus}}" bindtap="bindMinus" data-componentid="{{componentid}}">-</text>  
+    <!-- 数值 -->  
+    <input type="number" bindchange="bindManual" value="{{quantity}}" />  
+    <!-- 加号 -->  
+    <text class="normal" bindtap="bindPlus" data-componentid="{{componentid}}">+</text>  
+</view>  
+  </view>
+</template>

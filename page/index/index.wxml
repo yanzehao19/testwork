@@ -1,0 +1,76 @@
+<view class="top">
+  <view class="locate">
+    <image class="image" src="../../image/home/locate.png"></image>
+  </view>
+  <view class="search">
+    <icon type="search" size="20"></icon>
+    <input placeholder="输入商家、商品名称" />
+  </view>
+</view>
+
+<swiper indicator-dots="true" autoplay="{{false}}" interval="{{1000}}" duration="{{500}}">
+  <block>
+    <swiper-item>
+      <view class="navs">
+        <block wx:for-items="{{orderItems1}}" wx:key="name">
+          <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+            <image src="{{item.imageurl}}" class="nav-image" />
+            <text>{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+      <view class="navs">
+        <block wx:for-items="{{orderItems2}}" wx:key="name">
+          <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+            <image src="{{item.imageurl}}" class="nav-image" />
+            <text>{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+    </swiper-item>
+
+    <swiper-item>
+      <view class="navs">
+        <block wx:for-items="{{orderItems3}}" wx:key="name">
+          <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+            <image src="{{item.imageurl}}" class="nav-image" mode="aspectFill" />
+            <text>{{item.name}}</text>
+          </view>
+        </block>
+      </view>
+
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<swiper indicator-dots="true" autoplay="{{false}}" interval="{{1000}}" duration="{{500}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view>
+  <text>推荐商家</text>
+</view>
+<view class="recommend">
+  <block wx:for="{{recommendshop}}">
+    <view class="recommend-item">
+      <image src="{{item.imageurl}}" class="recommend-image" />
+      <view class="wrapper">
+        <view class="name">{{item.name}}</view>
+        <view class="name">{{item.evaluate}}</view>
+        <view class="name">{{item.send}}</view>
+      </view>
+
+      <view class="wrapper1">
+        <view >{{item.safe}}</view>
+        <view >{{item.promise}}</view>
+        <view >{{item.distance}}</view>
+      </view>
+      <view class="line"></view>
+    </view>
+  </block>
+</view>

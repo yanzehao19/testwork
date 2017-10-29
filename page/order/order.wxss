@@ -1,0 +1,13 @@
+/* pages/order/order.wxss */
+.tab-content1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-image
+{
+  width: 50%;
+  margin-top: 130rpx;
+  margin-bottom: 50rpx;
+}

@@ -1,0 +1,9 @@
+<!--pages/order/order.wxml-->
+<import src="/template/tab/tab.wxml" />
+ <view class="tab">
+    <template is="zan-tab" data="{{tab: tab1, componentId: 'tab1'}}"></template>
+  </view>
+<view class="tab-content1" >
+<image class="tab-image" src="../../images/order/non_cart.png"></image>
+<text>您还没有相关订单哦！</text>
+</view>
