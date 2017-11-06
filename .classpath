@@ -19,7 +19,12 @@
 	<classpathentry kind="src" path="algorithm"/>
 	<classpathentry kind="src" path="wexinjiben"/>
 	<classpathentry kind="src" path="weixinpay"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="url1"/>
+=======
+	<classpathentry kind="src" path="spring"/>
+	<classpathentry kind="src" path="url"/>
+>>>>>>> branch 'master' of https://github.com/yanzehao19/testwork.git
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh-lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">

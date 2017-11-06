@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean id="animal" class="phz.springframework.test.Cat">
+    <property name="name" value="kitty"/>
+</bean>
+
+<bean id="test" class="Test">
+    <property>
+        <map>
+            <entry key="a">
+            <value>1</value>
+            </entry>
+            <entry key="b">
+                <value>2</value>
+            </entry>
+        </map>
+    </property>
+    
+</bean>
