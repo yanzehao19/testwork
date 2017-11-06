@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
 
 import org.activiti.engine.impl.util.json.JSONObject;
 
@@ -23,9 +24,27 @@ public class PostJson {
 			obj.append("status", "2");
 			obj.append("taxId", "111111111111111");
 			obj.append("tenantId", "Q00000166");
+			
+			HashMap<String, Object> hashMap=new HashMap<>();
+			hashMap.put("busLicense", "111111111111111");
+			hashMap.put("city", "");
+			hashMap.put("country", "512");
+			hashMap.put("entCategory", "0");
+			hashMap.put("entId", "Q00000166");
+			hashMap.put("entName", "多项城10");
+			hashMap.put("modifier", "系统管理员");
+			hashMap.put("orgCode", "11111111");
+			hashMap.put("province", "521");
+			hashMap.put("status", "2");
+			hashMap.put("taxId", "111111111111111");
+			hashMap.put("tenantId", "Q00000166");
+			
+			JSONObject newjsonObejct=new JSONObject(hashMap);
 
 			System.out.println(obj);
-			URL url = new URL("http://10.94.20.28:8080/oic/services/manage/company/single");
+			System.out.println(newjsonObejct);
+			System.out.println(hashMap);
+			URL url = new URL("http://localhost:8080/oic/services/manage/company/single");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setDoOutput(true);
 			conn.setDoInput(true);
@@ -33,13 +52,13 @@ public class PostJson {
 			conn.setRequestMethod("POST");
 			conn.setRequestProperty("Connection", "Keep-Alive");
 			conn.setRequestProperty("Charset", "UTF-8");
-			byte[] data = (obj.toString()).getBytes();
+			byte[] data = (newjsonObejct.toString()).getBytes();
 			conn.setRequestProperty("Content-Length", String.valueOf(data.length));
-			conn.setRequestProperty("contentType", "application/json");
+			conn.setRequestProperty("Content-Type", "application/json");
 			conn.connect();
 			OutputStream out = conn.getOutputStream();
 
-			out.write((obj.toString()).getBytes());
+			out.write((newjsonObejct.toString()).getBytes());
 			out.flush();
 			out.close();
 
