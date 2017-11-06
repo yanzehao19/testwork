@@ -52,9 +52,10 @@ public class ExcecutorServiceDemo {
 			data=input.read();
 		}
 	}
+	URLProcessor urlProcessor = new URLProcessorImpl();
+	urlProcessor.process(new URL("http://jenkov.com"));
 }
 
-URLProcessor urlProcessor = new URLProcessorImpl();
-urlProcessor.process(new URL("http://jenkov.com"));
+
 
 
