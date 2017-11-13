@@ -30,21 +30,17 @@ public class StackDemo {
 		showpop(st);
 		showpop(st);
 		showpop(st);
-		
-		
-		Map<String , String> m1= new HashMap<>();
+
+		Map<String, String> m1 = new HashMap<>();
 		m1.put("1", "2");
 		System.out.println(m1);
-		
-		
+
 		try {
 			showpop(st);
 		} catch (EmptyStackException e) {
 			System.out.println("empty stack");
 		}
-		
-		
-		
+
 	}
 
 }

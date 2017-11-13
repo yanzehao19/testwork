@@ -13,7 +13,7 @@ import java.util.zip.ZipOutputStream;
 public class ZipCompressUtils {
 
 	public static void main(String[] args) throws Exception {
-		 //ZipFile("d:\\zip.txt", "D:\\zip.zip");
+		// ZipFile("d:\\zip.txt", "D:\\zip.zip");
 		/* ZipMultiFile("d:\\test1", "D:\\zip.zip"); */
 		/*
 		 * ZipOutputStream zipOutputStream = new ZipOutputStream(new

@@ -2,80 +2,78 @@ package standard.alibaba;
 
 public class AlibabaDOs {
 	//
-	static String COUNT_MAX_UPPER="11";
+	static String COUNT_MAX_UPPER = "11";
 	public String variableOfAlibab;
-	
+
 	boolean success;
-	
-	public String getVariableOfAlibab(){
+
+	public String getVariableOfAlibab() {
 		return variableOfAlibab;
 	}
-	
-	public String listVariableOfAlibab(){
+
+	public String listVariableOfAlibab() {
 		return variableOfAlibab;
 	}
-	public String countVariableOfAlibab(){
+
+	public String countVariableOfAlibab() {
 		return variableOfAlibab;
 	}
-	public void saveVariableOfAlibab(){
-		
+
+	public void saveVariableOfAlibab() {
+
 	}
-	 
-	void insertVariableOfAlibab(){
-		
+
+	void insertVariableOfAlibab() {
+
 	}
-	
-	void removeVariableOfAlibab(){
-		
+
+	void removeVariableOfAlibab() {
+
 	}
-	void deleteVariableOfAlibab(){
-		
+
+	void deleteVariableOfAlibab() {
+
 	}
-	void updaeVariableOfAlibab(){
-		
+
+	void updaeVariableOfAlibab() {
+
 	}
+
 	String conditon = null;
 
 	public boolean isSuccess() {
 		return success;
 	}
 
-
-
-
 	public void setSuccess(boolean success) {
 		this.success = success;
-		if (false){}
+		if (false) {
+		}
 	}
-	String key="Id#taobao_";
-	
-	long a=2;
-	Long aLo=2l;
 
-				
-	public static void testMethod(int paramTest,int tem,
-			int tem1){
-		
+	String key = "Id#taobao_";
+
+	long a = 2;
+	Long aLo = 2l;
+
+	public static void testMethod(int paramTest, int tem, int tem1) {
+
 	}
-	
-	
-	
-    public static void main(String[] args){
-        String say = "hello";
-        "hello".equals(say);
-        
-        testMethod(1, 2, 3);
-        StringBuffer sBuffer = new StringBuffer();
-        sBuffer.append("zi")
-        	.append("str")
-        	.append("ggg");
-        int flag = 0;
-        if (flag == 0) {
-        	
-        } else {
-        	
-        }
-    }
+
+	public static void main(String[] args) {
+		String say = "hello";
+		"hello".equals(say);
+
+		testMethod(1, 2, 3);
+		StringBuffer sBuffer = new StringBuffer();
+		sBuffer.append("zi").append("str").append("ggg");
+		int flag = 0;
+		if (flag == 0) {
+
+		} else {
+
+		}
+	}
 
 	@Override
 	public String toString() {
@@ -85,10 +83,5 @@ public class AlibabaDOs {
 				+ countVariableOfAlibab() + ", isSuccess()=" + isSuccess() + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-    
-    
-    
-    
-    
-    
+
 }

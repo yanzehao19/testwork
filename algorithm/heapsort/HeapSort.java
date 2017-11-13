@@ -51,7 +51,7 @@ public class HeapSort {
 	}
 
 	public static void main(String[] args) {
-		int[] data = new int[] { 5, 3, 6, 2, 1, 9, 4, 8, 7 ,10};
+		int[] data = new int[] { 5, 3, 6, 2, 1, 9, 4, 8, 7, 10 };
 		print(data);
 		heapSort(data);
 		System.out.println("排序后的数组：");

@@ -16,34 +16,28 @@ public class ExcecutorServiceDemo {
 		public void run() {
 			System.out.println("Asynchronous task");
 		}
-	})
-	executorService.shutdown();
+	})executorService.shutdown();}
+
+interface URLProcessor {
+	public void process(URL url) throws IOException;
 }
 
- interface URLProcessor{
-	public void process(URL url)throws IOException;
-}
-
-
- abstract class URLProcessorBase implements URLProcessor{
-	public void process(URL url) throws IOException{
+abstract class URLProcessorBase implements URLProcessor {
+	public void process(URL url) throws IOException {
 		URLConnection urlConnection = url.openConnection();
-		InputStream input=urlConnection.getInputStream();
-		
+		InputStream input = urlConnection.getInputStream();
+
 		try {
 			processURLData(input);
-		}finally  {
+		} finally {
 			input.close();
 		}
 	}
-	
+
 	protected abstract void processURLData(InputStream input) throws IOException;
 }
 
-
-
-
- class URLProcessorImpl extends URLProcessorBase{
+class URLProcessorImpl extends URLProcessorBase{
 	@Override
 	protected void processURLData(InputStream input) throws IOException{
 		int data=input.read();
@@ -55,7 +49,3 @@ public class ExcecutorServiceDemo {
 	URLProcessor urlProcessor = new URLProcessorImpl();
 	urlProcessor.process(new URL("http://jenkov.com"));
 }
-
-
-
-

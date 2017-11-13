@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="testwork">
-        <wb-resource deploy-path="/" source-path="/src"/>
-        <wb-resource deploy-path="/" source-path="/design.pattern"/>
-        <wb-resource deploy-path="/" source-path="/javascript"/>
-        <wb-resource deploy-path="/" source-path="/effective.java"/>
-        <wb-resource deploy-path="/" source-path="/rpc"/>
-        <wb-resource deploy-path="/" source-path="/NIO"/>
-        <wb-resource deploy-path="/" source-path="/dataStructure"/>
-        <wb-resource deploy-path="/" source-path="/rmi"/>
-        <wb-resource deploy-path="/" source-path="/testnetborder"/>
-        <wb-resource deploy-path="/" source-path="/concurrent"/>
-        <wb-resource deploy-path="/" source-path="/hadoop"/>
-        <wb-resource deploy-path="/" source-path="/activiti"/>
-        <wb-resource deploy-path="/" source-path="/poi"/>
-        <wb-resource deploy-path="/" source-path="/thinkingInJava"/>
-        <wb-resource deploy-path="/" source-path="/alibabaStandard"/>
-        <wb-resource deploy-path="/" source-path="/algorithm"/>
-        <wb-resource deploy-path="/" source-path="/wexinjiben"/>
-        <wb-resource deploy-path="/" source-path="/weixinpay"/>
-        <wb-resource deploy-path="/" source-path="/spring"/>
-        <wb-resource deploy-path="/" source-path="/url"/>
+        <wb-resource deploy-path="/" source-path="/sringannotation"/>
+        <wb-resource deploy-path="/" source-path="/dynamicCreateMethodandProperty"/>
     </wb-module>
 </project-modules>

@@ -1,38 +1,41 @@
 package yzh.annotation;
 
-
 import yzh.annotation.FruitColor.Color;
 
 public class Apple {
 	@FruitName("Apple")
 	private String appleName;
-	@FruitColor(fruitColor=Color.RED)
+	@FruitColor(fruitColor = Color.RED)
 	private String appleColor;
-	@FruitProvider(id=1,name="陕西红富士集团",address="陕西省西安市延安路89号红富士大厦")
+	@FruitProvider(id = 1, name = "陕西红富士集团", address = "陕西省西安市延安路89号红富士大厦")
 	private String appleProvider;
-	
-	public void setAppleColor(String appleColor){
-		this.appleColor=appleColor;
-		
+
+	public void setAppleColor(String appleColor) {
+		this.appleColor = appleColor;
+
 	}
-	public String getAppleColor(){
+
+	public String getAppleColor() {
 		return appleColor;
 	}
-	
-	public void setAppleName(String appleName){
-		this.appleName=appleName;
+
+	public void setAppleName(String appleName) {
+		this.appleName = appleName;
 	}
+
 	public String getAppleProvider() {
 		return appleProvider;
 	}
+
 	public void setAppleProvider(String appleProvider) {
 		this.appleProvider = appleProvider;
 	}
-	public String getAppleName(){
+
+	public String getAppleName() {
 		return appleName;
 	}
-	
-	public void displayName(){
+
+	public void displayName() {
 		System.out.println("水果的名字是：苹果");
 	}
 }

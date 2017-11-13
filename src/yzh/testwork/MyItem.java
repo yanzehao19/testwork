@@ -1,7 +1,7 @@
 package yzh.testwork;
 
 public class MyItem {
-  private byte type;
-  private byte color;
-  private byte price;
+	private byte type;
+	private byte color;
+	private byte price;
 }

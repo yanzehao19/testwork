@@ -40,11 +40,11 @@ public class List {
 		Set<Entry<String, Integer>> set = map1.entrySet();
 		java.util.Iterator<Entry<String, Integer>> iterator = map1.entrySet().iterator();
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-		Date date=new Date();
-		String dateStr=simpleDateFormat.format(date);
-		dateStr=dateStr.split(" ")[0];
+		Date date = new Date();
+		String dateStr = simpleDateFormat.format(date);
+		dateStr = dateStr.split(" ")[0];
 		Date datetemp = (Date) simpleDateFormat.parseObject(dateStr + " 23:59:59");
-		
+
 		while (iterator.hasNext()) {
 			Entry entry = (Entry) iterator.next();
 			Object key = entry.getKey();
@@ -63,10 +63,6 @@ public class List {
 
 					}
 
-		
-		
 	}
-
-	
 
 }

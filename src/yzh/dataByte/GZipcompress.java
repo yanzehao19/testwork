@@ -32,7 +32,7 @@ public class GZipcompress {
 		} catch (Exception e) {
 
 		}
-		
+
 	}
 
 }

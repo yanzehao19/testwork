@@ -10,7 +10,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-
 class SeparateSubTask extends Thread {
 	private int count = 0;
 	private Counter2 c2;
@@ -18,7 +17,7 @@ class SeparateSubTask extends Thread {
 
 	public SeparateSubTask(Counter2 c2) {
 		this.c2 = c2;
-		start();//关键点，启动线程
+		start();// 关键点，启动线程
 
 	}
 
@@ -55,14 +54,14 @@ public class Counter2 extends Applet {
 	class StartL implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			if (sp == null)
-				sp = new SeparateSubTask(Counter2.this);//实例化对象，
+				sp = new SeparateSubTask(Counter2.this);// 实例化对象，
 		}
 	}
 
 	class OnOffL implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			if (sp != null)
-				sp.inverFlat();//只改变标志位，线程一直在运行着只是显示框中的内容不再显示了
+				sp.inverFlat();// 只改变标志位，线程一直在运行着只是显示框中的内容不再显示了
 		}
 	}
 

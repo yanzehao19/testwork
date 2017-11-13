@@ -1,6 +1,5 @@
 package activiti;
 
-
 import static org.junit.Assert.*;
 
 import java.io.FileInputStream;
@@ -37,19 +36,21 @@ public class ProcessTestDymaticForm {
 	@Test
 	public void startProcess() throws Exception {
 		RepositoryService repositoryService = activitiRule.getRepositoryService();
-		repositoryService.createDeployment().addInputStream("DymaticForm.bpmn20.xml", new FileInputStream(filename)).deploy();
-		
-		ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery().processDefinitionKey("DymaticForm").latestVersion().singleResult();
+		repositoryService.createDeployment().addInputStream("DymaticForm.bpmn20.xml", new FileInputStream(filename))
+				.deploy();
+
+		ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery()
+				.processDefinitionKey("DymaticForm").latestVersion().singleResult();
 		FormService formService = activitiRule.getFormService();
 		StartFormData startFormData = formService.getStartFormData(processDefinition.getId());
 		assertNull(startFormData.getFormKey());
-		
+
 		Map<String, String> formProperties = new HashMap<String, String>();
 		formProperties.put("name", "HenryYan");
-		
+
 		ProcessInstance processInstance = formService.submitStartFormData(processDefinition.getId(), formProperties);
 		assertNotNull(processInstance);
-		
+
 		// 运行时变量
 		RuntimeService runtimeService = activitiRule.getRuntimeService();
 		Map<String, Object> variables = runtimeService.getVariables(processInstance.getId());
@@ -58,17 +59,17 @@ public class ProcessTestDymaticForm {
 		for (Entry<String, Object> entry : entrySet) {
 			System.out.println(entry.getKey() + "=" + entry.getValue());
 		}
-		
+
 		// 历史记录
 		HistoryService historyService = activitiRule.getHistoryService();
 		List<HistoricDetail> list = historyService.createHistoricDetailQuery().formProperties().list();
 		assertEquals(1, list.size());
-		
+
 		// 获取第一个节点
 		TaskService taskService = activitiRule.getTaskService();
 		Task task = taskService.createTaskQuery().singleResult();
 		assertEquals("First Step", task.getName());
-		
+
 		TaskFormData taskFormData = formService.getTaskFormData(task.getId());
 		assertNotNull(taskFormData);
 		assertNull(taskFormData.getFormKey());
@@ -80,7 +81,7 @@ public class ProcessTestDymaticForm {
 		formProperties = new HashMap<String, String>();
 		formProperties.put("setInFirstStep", "01/12/2012");
 		formService.submitTaskFormData(task.getId(), formProperties);
-		
+
 		// 获取第二个节点
 		task = taskService.createTaskQuery().taskName("Second Step").singleResult();
 		assertNotNull(task);

@@ -47,25 +47,24 @@ public class Iocaop {
 		}
 
 	}
-	
-	
-	public static Object newInstance(String className){
-		Class<?> cls=null;
-		Object obj=null;
-		try{
-			cls=Class.forName(className);
-			obj=cls.newInstance();
-		}catch(ClassNotFoundException e){
+
+	public static Object newInstance(String className) {
+		Class<?> cls = null;
+		Object obj = null;
+		try {
+			cls = Class.forName(className);
+			obj = cls.newInstance();
+		} catch (ClassNotFoundException e) {
 			throw new RuntimeException(e);
-		}catch(InstantiationException e){
+		} catch (InstantiationException e) {
 			throw new RuntimeException(e);
-		}catch(IllegalAccessException e){
+		} catch (IllegalAccessException e) {
 			throw new RuntimeException(e);
 		}
-		
+
 		return obj;
 	}
-	
+
 	public static void setProperty(Object obj,String name,String value){
 		Class<? extends Object> clazz=obj.getClass();
 		try{
@@ -91,11 +90,10 @@ public class Iocaop {
 		}
 		
 	}
-	
-	
-	
-	
-	if(value instanceof map){
+
+	if(value instanceof map)
+
+	{
 		Iterator<?> entryIterator =((Map<?, ?>) value).entrySet().iterator();
 		Map<String, Object> map=new HashMap<String ,Object>();
 		while(entryIterator.hasNext()){
@@ -106,8 +104,5 @@ public class Iocaop {
 		}
 		BeanProcesser.setProperty(obj,property,map);
 	}
-	
-	
-	
 
 }

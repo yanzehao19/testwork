@@ -3,10 +3,10 @@ package reflection;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-
 public class TestReflectConstructor {
 
-	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException,
+			IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		Class<?> class1 = null;
 		class1 = Class.forName("reflection.User");
 		// 第一种方法，实例化默认构造方法，调用set赋值

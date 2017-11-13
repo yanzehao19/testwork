@@ -16,9 +16,11 @@ class JabberClientThread extends Thread {
 	private static int counter = 0;
 	private int id = counter++;
 	private static int threadcount = 0;
+
 	public static int threadCount() {
 		return threadcount;
 	}
+
 	public JabberClientThread(InetAddress address) {
 		System.out.println("Making client " + id);
 		threadcount++;
@@ -39,6 +41,7 @@ class JabberClientThread extends Thread {
 			}
 		}
 	}
+
 	public void run() {
 		try {
 			for (int i = 0; i < 25; i++) {
@@ -60,6 +63,7 @@ class JabberClientThread extends Thread {
 
 public class MultiJabberClient {
 	static final int MAX_THREADS = 40;
+
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		InetAddress address = InetAddress.getByName(null);

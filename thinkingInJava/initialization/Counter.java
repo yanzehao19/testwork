@@ -1,7 +1,11 @@
 package initialization;
+
 //: initialization/Counter.java
 public class Counter {
-  int i;
-  Counter() { i = 7; }
-  // ...
-} ///:~
+	int i;
+
+	Counter() {
+		i = 7;
+	}
+	// ...
+} /// :~

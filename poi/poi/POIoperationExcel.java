@@ -647,62 +647,60 @@ public class POIoperationExcel {
 	}
 
 	// 3生成下拉式菜单
-	public void createDropDownMenu(){
+	public void createDropDownMenu() {
 		HSSFWorkbook workbook = new HSSFWorkbook();// 创建Excel文件（workbook）
 		HSSFSheet sheet = workbook.createSheet("Test0");// 创建工作表（sheet）
-		
-		CellRangeAddressList regions=new CellRangeAddressList(1,65535,0,0);//选定一个区域
-		DVConstraint constraint=DVConstraint.createExplicitListConstraint(new String[]{"C++","java","C#"});
-		HSSFDataValidation dataValidate=new HSSFDataValidation(regions, constraint);
+
+		CellRangeAddressList regions = new CellRangeAddressList(1, 65535, 0, 0);// 选定一个区域
+		DVConstraint constraint = DVConstraint.createExplicitListConstraint(new String[] { "C++", "java", "C#" });
+		HSSFDataValidation dataValidate = new HSSFDataValidation(regions, constraint);
 		sheet.addValidationData(dataValidate);
 	}
-	//4打印基本设置
-	public void printSet(){
+
+	// 4打印基本设置
+	public void printSet() {
 		HSSFWorkbook workbook = new HSSFWorkbook();// 创建Excel文件（workbook）
 		HSSFSheet sheet = workbook.createSheet("Test0");// 创建工作表（sheet）
-		
-		HSSFPrintSetup print=sheet.getPrintSetup();//得到打印对象
-		print.setLandscape(false);//true,则表示页面方向为横向，否则为纵向
-		print.setScale((short)80);//缩放比例80%（设置为0-100之间的值）
-		print.setFitWidth((short)2);//设置页宽
-		print.setFitHeight((short)4);//设置页高
-		print.setPaperSize(HSSFPrintSetup.A4_PAPERSIZE);//纸张设置
-		print.setUsePage(true);//社会打印起始页码不使用“自动”
-		print.setPageStart((short)6);//设置打印起始页码
-		sheet.setPrintGridlines(true);//设置打印网格线
-		print.setNoColor(true);//值为true时，表示单色打印
-		print.setDraft(true);//值为true时，表示用草稿品质打印
-		print.setLeftToRight(true);//true表示“先行后列”；false表示“先列后行”
-		print.setNotes(true);//设置打印批注
-		sheet.setAutobreaks(false);//Sheet页自适应页面大小
+
+		HSSFPrintSetup print = sheet.getPrintSetup();// 得到打印对象
+		print.setLandscape(false);// true,则表示页面方向为横向，否则为纵向
+		print.setScale((short) 80);// 缩放比例80%（设置为0-100之间的值）
+		print.setFitWidth((short) 2);// 设置页宽
+		print.setFitHeight((short) 4);// 设置页高
+		print.setPaperSize(HSSFPrintSetup.A4_PAPERSIZE);// 纸张设置
+		print.setUsePage(true);// 社会打印起始页码不使用“自动”
+		print.setPageStart((short) 6);// 设置打印起始页码
+		sheet.setPrintGridlines(true);// 设置打印网格线
+		print.setNoColor(true);// 值为true时，表示单色打印
+		print.setDraft(true);// 值为true时，表示用草稿品质打印
+		print.setLeftToRight(true);// true表示“先行后列”；false表示“先列后行”
+		print.setNotes(true);// 设置打印批注
+		sheet.setAutobreaks(false);// Sheet页自适应页面大小
 	}
-	
-	//5超链接
-	public void hyperLink(){
+
+	// 5超链接
+	public void hyperLink() {
 		HSSFWorkbook workbook = new HSSFWorkbook();// 创建Excel文件（workbook）
 		HSSFSheet sheet = workbook.createSheet("Test0");// 创建工作表（sheet）
-		
-		CreationHelper createHelper=workbook.getCreationHelper();
-		//关联到网站
-	    Hyperlink link=createHelper.createHyperlink(Hyperlink.LINK_URL);
+
+		CreationHelper createHelper = workbook.getCreationHelper();
+		// 关联到网站
+		Hyperlink link = createHelper.createHyperlink(Hyperlink.LINK_URL);
 		link.setAddress("http://poi.apache.org/");
 		sheet.createRow(0).createCell(0).setHyperlink(link);
-		//关联到当前目录的文件
-		link=createHelper.createHyperlink(Hyperlink.LINK_FILE);
+		// 关联到当前目录的文件
+		link = createHelper.createHyperlink(Hyperlink.LINK_FILE);
 		link.setAddress("sample.xls");
 		sheet.createRow(0).createCell(1).setHyperlink(link);
-		//e-mail关联
-		link=createHelper.createHyperlink(Hyperlink.LINK_EMAIL);
+		// e-mail关联
+		link = createHelper.createHyperlink(Hyperlink.LINK_EMAIL);
 		link.setAddress("mailto:123@123.com?subject=Hyperlinks");
 		sheet.createRow(0).createCell(2).setHyperlink(link);
-		//关联到工作簿中位置
-		link=createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
-		link.setAddress("'test0'!C3");//sheet名为test0的C3位置
+		// 关联到工作簿中位置
+		link = createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
+		link.setAddress("'test0'!C3");// sheet名为test0的C3位置
 		sheet.createRow(0).createCell(3).setHyperlink(link);
-		
+
 	}
-	
-	
-	
-	
+
 }

@@ -24,8 +24,8 @@ public class PostJson {
 			obj.append("status", "2");
 			obj.append("taxId", "111111111111111");
 			obj.append("tenantId", "Q00000166");
-			
-			HashMap<String, Object> hashMap=new HashMap<>();
+
+			HashMap<String, Object> hashMap = new HashMap<>();
 			hashMap.put("busLicense", "111111111111111");
 			hashMap.put("city", "");
 			hashMap.put("country", "512");
@@ -38,8 +38,8 @@ public class PostJson {
 			hashMap.put("status", "2");
 			hashMap.put("taxId", "111111111111111");
 			hashMap.put("tenantId", "Q00000166");
-			
-			JSONObject newjsonObejct=new JSONObject(hashMap);
+
+			JSONObject newjsonObejct = new JSONObject(hashMap);
 
 			System.out.println(obj);
 			System.out.println(newjsonObejct);
@@ -87,8 +87,9 @@ public class PostJson {
 			e.printStackTrace();
 		}
 	}
-	
-	 public static void main(String args[]){
-		 postJson();
-	 }
+
+	public static void main(String[] args) {
+		// testOpenStream();
+		postJson();
+	}
 }

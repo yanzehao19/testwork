@@ -10,12 +10,12 @@ import java.net.URLConnection;
 public class Urltest {
 	public static void testOpenStream() {
 		try {
-			URL url=new URL("http://www.baidu.com");
-			InputStream inputStream=url.openStream();
-			InputStreamReader inputStreamReader=new InputStreamReader(inputStream);
-			BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+			URL url = new URL("http://www.baidu.com");
+			InputStream inputStream = url.openStream();
+			InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+			BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 			String string;
-			while((string=bufferedReader.readLine())!=null) {
+			while ((string = bufferedReader.readLine()) != null) {
 				System.out.println(string);
 			}
 			bufferedReader.close();
@@ -25,23 +25,24 @@ public class Urltest {
 			e.printStackTrace();
 		}
 	}
+
 	public static void testOpenConnection() {
 		try {
-			URL url=new URL("http://www.baidu.com");
-			URLConnection urlConnection=url.openConnection();
-			HttpURLConnection httpURLConnection=(HttpURLConnection)urlConnection;
-			int responseCode=httpURLConnection.getResponseCode();
-			if(responseCode==HttpURLConnection.HTTP_OK) {
+			URL url = new URL("http://www.baidu.com");
+			URLConnection urlConnection = url.openConnection();
+			HttpURLConnection httpURLConnection = (HttpURLConnection) urlConnection;
+			int responseCode = httpURLConnection.getResponseCode();
+			if (responseCode == HttpURLConnection.HTTP_OK) {
 				System.err.println("成功");
-				InputStream inputStream=httpURLConnection.getInputStream();
-				InputStreamReader inputStreamReader=new InputStreamReader(inputStream);
-				BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+				InputStream inputStream = httpURLConnection.getInputStream();
+				InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+				BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 				String string;
-				while ((string=bufferedReader.readLine())!=null) {
+				while ((string = bufferedReader.readLine()) != null) {
 					System.out.println(string);
 				}
 				bufferedReader.close();
-			}else {
+			} else {
 				System.err.println("失败");
 			}
 		} catch (Exception e) {
@@ -49,10 +50,10 @@ public class Urltest {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		//testOpenStream();
+		// testOpenStream();
 		testOpenConnection();
 	}
-	
+
 }

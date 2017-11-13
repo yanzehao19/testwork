@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="design.pattern"/>
-	<classpathentry kind="src" path="javascript"/>
-	<classpathentry kind="src" path="effective.java"/>
-	<classpathentry kind="src" path="rpc"/>
-	<classpathentry kind="src" path="NIO"/>
-	<classpathentry kind="src" path="dataStructure"/>
-	<classpathentry kind="src" path="rmi"/>
-	<classpathentry kind="src" path="testnetborder"/>
-	<classpathentry kind="src" path="concurrent"/>
-	<classpathentry kind="src" path="freeMarker"/>
-	<classpathentry kind="src" path="hadoop"/>
-	<classpathentry kind="src" path="activiti"/>
-	<classpathentry kind="src" path="poi"/>
-	<classpathentry kind="src" path="thinkingInJava"/>
-	<classpathentry kind="src" path="alibabaStandard"/>
-	<classpathentry kind="src" path="algorithm"/>
-	<classpathentry kind="src" path="wexinjiben"/>
-	<classpathentry kind="src" path="weixinpay"/>
-<<<<<<< HEAD
-	<classpathentry kind="src" path="url1"/>
-=======
-	<classpathentry kind="src" path="spring"/>
-	<classpathentry kind="src" path="url"/>
->>>>>>> branch 'master' of https://github.com/yanzehao19/testwork.git
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-lib"/>
+	<classpathentry kind="src" path="sringannotation"/>
+	<classpathentry kind="src" path="dynamicCreateMethodandProperty"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh-lib"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

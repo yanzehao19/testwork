@@ -1,6 +1,5 @@
 package simpleselectsort;
 
-
 public class SimpleSelectSort {
 
 	public static void simpleSelectSort(int[] data) {
@@ -33,20 +32,18 @@ public class SimpleSelectSort {
 	}
 
 	public static void main(String[] args) {
-		int[] data = new int[] { 5, 3, 6, 2, 1, 9, 4, 8, 7 ,10};
+		int[] data = new int[] { 5, 3, 6, 2, 1, 9, 4, 8, 7, 10 };
 		print(data);
 		simpleSelectSort(data);
 		System.out.println("排序后的数组：");
 		print(data);
-		
-		
-		JSONObject jsonObject=new JSONObject();
+
+		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("BusiCode", "3002");
 		jsonObject.put("BusiCode", "3001");
-		
+
 		System.out.println(jsonObject.toString());
-		
-		
+
 	}
 
 }

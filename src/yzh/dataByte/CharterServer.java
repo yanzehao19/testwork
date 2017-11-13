@@ -10,27 +10,29 @@ public class CharterServer {
 	private byte[] buf = new byte[1000];
 	private DatagramPacket dPacket = new DatagramPacket(buf, buf.length);
 	private DatagramSocket socket;
-	
-	public CharterServer(){
-		try{
+
+	public CharterServer() {
+		try {
 			socket = new DatagramSocket(INPORT);
 			System.out.println("Server started");
-			while(true){
+			while (true) {
 				socket.receive(dPacket);
-				String rcvd = Dgram.toString(dPacket)+",from address:"+dPacket.getAddress()+",port:"+dPacket.getPort();
+				String rcvd = Dgram.toString(dPacket) + ",from address:" + dPacket.getAddress() + ",port:"
+						+ dPacket.getPort();
 				System.out.println(rcvd);
 				String echoString = "Echoed:" + rcvd;
 				DatagramPacket echo = Dgram.toDatagram(echoString, dPacket.getAddress(), dPacket.getPort());
 				socket.send(echo);
 			}
-		}catch(SocketException e){
+		} catch (SocketException e) {
 			System.err.println("Can't open socket");
 			System.exit(1);
-		}catch (IOException e) {
+		} catch (IOException e) {
 			System.err.println("Communication error");
 			e.printStackTrace();
 		}
 	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new CharterServer();

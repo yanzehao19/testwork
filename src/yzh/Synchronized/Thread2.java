@@ -16,14 +16,14 @@ public class Thread2 {
 	}
 
 	public void m4t2() {
-		synchronized(this){
+		synchronized (this) {
 			int i = 5;
 			while (i-- > 0) {
 				System.out.println(Thread.currentThread().getName() + ":" + i);
 				try {
 					Thread.sleep(500);
 				} catch (InterruptedException ie) {
-					
+
 				}
 			}
 		}

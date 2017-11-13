@@ -17,7 +17,7 @@ public class Channel {
 			System.out.println("Read" + bytesRead);
 			buf.flip();
 			while (buf.hasRemaining()) {
-				System.out.println((char)buf.getChar());
+				System.out.println((char) buf.getChar());
 			}
 			buf.clear();
 			bytesRead = inChannel.read(buf);

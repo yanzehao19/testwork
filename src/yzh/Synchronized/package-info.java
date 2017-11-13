@@ -2,7 +2,6 @@
  * 
  */
 /**
- * @author lenovo
- *Synchronized 并发
+ * @author lenovo Synchronized 并发
  */
 package yzh.Synchronized;

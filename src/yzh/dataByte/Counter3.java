@@ -10,7 +10,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-
 public class Counter3 extends Applet implements Runnable {
 	private int count = 0;
 	private boolean runFlag = true;

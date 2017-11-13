@@ -1,12 +1,14 @@
 package ioc;
 
-public class Cat implements Animal{
+public class Cat implements Animal {
 	private String name;
-	public void say(){
-		System.out.println("I am" + name+"!");
+
+	public void say() {
+		System.out.println("I am" + name + "!");
 	}
-	public void setName(String name){
-		this.name=name;
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 }

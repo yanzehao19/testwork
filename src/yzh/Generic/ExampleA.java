@@ -1,6 +1,5 @@
 package yzh.Generic;
 
-
 public class ExampleA {
 	public <T> void f(T x) {
 		System.out.println(x.getClass().getName());

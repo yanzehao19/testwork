@@ -1,4 +1,4 @@
-package threadPool;
+package concurrent.threadPool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -7,7 +7,7 @@ public class NewCachedThreadPoolTest {
 
 	public static void main(String[] args) {
 		ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 100; i++) {
 			final int index = i;
 			try {
 				Thread.sleep(index * 1000);

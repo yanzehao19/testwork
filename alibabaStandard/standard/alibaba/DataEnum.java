@@ -1,5 +1,5 @@
 package standard.alibaba;
 
 public enum DataEnum {
-  SUCCESS,UNKONWN_REASON;
+	SUCCESS, UNKONWN_REASON;
 }

@@ -6,8 +6,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import javax.xml.ws.Service;
 
-
-
 public class StaticFactoryMethod {
 	private StaticFactoryMethod() {
 	}

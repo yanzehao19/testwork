@@ -12,7 +12,7 @@ public class SendMsgWebChinese {
 
 	public static void main(String[] args) throws HttpException, IOException {
 		HttpClient client = new HttpClient();
-		/*PostMethod post = new PostMethod("http://gbk.sms.webchinese.cn");*/
+		/* PostMethod post = new PostMethod("http://gbk.sms.webchinese.cn"); */
 		PostMethod post = new PostMethod("http://sms.webchinese.cn/web_api/");
 		post.addRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=gbk");// 在头文件中设置转码
 		NameValuePair[] data = { new NameValuePair("Uid", "yanzehao19"), // 注册的用户名

@@ -1,6 +1,5 @@
 package yzh.send.email.success;
 
-
 /**
  * 邮件发送工具实现类
  */

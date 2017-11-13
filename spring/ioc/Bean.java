@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Bean {
-/*Bean id*/
+	/* Bean id */
 	private String id;
-	/*Bean class*/
+	/* Bean class */
 	private String type;
-	/*Bean property*/
-	private Map<String, Object> properties=new HashMap<String,Object>();
+	/* Bean property */
+	private Map<String, Object> properties = new HashMap<String, Object>();
 }

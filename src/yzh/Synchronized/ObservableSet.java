@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Set;
 
-
 public class ObservableSet<E> extends ForwardingSet<E> {
 	public ObservableSet<E>(Set<E> set){ super(set); }
 	private final List<SetObserver<E>> observers=new ArrayList<SetObserver<E>>();

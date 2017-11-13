@@ -11,7 +11,8 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 
 public class WordUtil {
-	public static void createWord(Map<?, ?> dataMap, String templateName, String templatePath,String filePath, String fileName) {
+	public static void createWord(Map<?, ?> dataMap, String templateName, String templatePath, String filePath,
+			String fileName) {
 		try {
 			// 创建配置实例
 			Configuration configuration = new Configuration(Configuration.VERSION_2_3_25);
