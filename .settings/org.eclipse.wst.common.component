@@ -2,5 +2,6 @@
     <wb-module deploy-name="testwork">
         <wb-resource deploy-path="/" source-path="/sringannotation"/>
         <wb-resource deploy-path="/" source-path="/dynamicCreateMethodandProperty"/>
+        <wb-resource deploy-path="/" source-path="/io"/>
     </wb-module>
 </project-modules>
