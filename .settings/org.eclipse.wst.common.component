@@ -31,5 +31,6 @@
         <wb-resource deploy-path="/" source-path="/yzh-lib"/>
         <wb-resource deploy-path="/" source-path="/.settings"/>
         <wb-resource deploy-path="/" source-path="/activiti"/>
+        <wb-resource deploy-path="/" source-path="/javaBase"/>
     </wb-module>
 </project-modules>
