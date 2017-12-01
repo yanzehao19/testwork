@@ -3,6 +3,36 @@
 	<classpathentry kind="src" path="ftp"/>
 	<classpathentry kind="src" path="io"/>
 	<classpathentry kind="src" path="exception"/>
+	<classpathentry kind="src" path="closure"/>
+	<classpathentry kind="src" path="future"/>
+	<classpathentry kind="src" path="dataStructure"/>
+	<classpathentry kind="src" path="algorithm"/>
+	<classpathentry kind="src" path="alibabaStandard"/>
+	<classpathentry kind="src" path="concurrent"/>
+	<classpathentry kind="src" path="design.pattern"/>
+	<classpathentry kind="src" path="dynamic"/>
+	<classpathentry kind="src" path="dynamicCreateMethodandProperty"/>
+	<classpathentry kind="src" path="effective.java"/>
+	<classpathentry kind="src" path="freeMarker"/>
+	<classpathentry kind="src" path="hadoop"/>
+	<classpathentry kind="src" path="javascript"/>
+	<classpathentry kind="src" path="NIO"/>
+	<classpathentry kind="src" path="poi"/>
+	<classpathentry kind="src" path="rmi"/>
+	<classpathentry kind="src" path="rpc"/>
+	<classpathentry kind="src" path="spring"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="sringannotation"/>
+	<classpathentry kind="src" path="testnetborder"/>
+	<classpathentry kind="src" path="thinkingInJava"/>
+	<classpathentry kind="src" path="url"/>
+	<classpathentry kind="src" path="url1"/>
+	<classpathentry kind="src" path="weixin"/>
+	<classpathentry kind="src" path="weixinpay"/>
+	<classpathentry kind="src" path="wexinjiben"/>
+	<classpathentry kind="src" path="yzh-lib"/>
+	<classpathentry kind="src" path=".settings"/>
+	<classpathentry kind="src" path="activiti"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh_lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>

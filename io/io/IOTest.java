@@ -37,7 +37,7 @@ public class IOTest {
 			File file = new File("C:\\Users\\lenovo\\Desktop\\test.txt");
 			File file1 = new File("C:\\Users\\lenovo\\Desktop\\testto.txt");
 			FileInputStream fInputStream = new FileInputStream(file);
-			InputStreamReader inputStreamReader = new InputStreamReader(fInputStream, "GBK");
+			InputStreamReader inputStreamReader = new InputStreamReader(fInputStream, "utf-8");
 			bufferedReader = new BufferedReader(inputStreamReader);
 
 			bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file1), "GBK"));
