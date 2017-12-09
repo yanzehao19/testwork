@@ -34,6 +34,7 @@
 	<classpathentry kind="src" path=".settings"/>
 	<classpathentry kind="src" path="activiti"/>
 	<classpathentry kind="src" path="javaBase"/>
+	<classpathentry kind="src" path="jvm"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh_lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
