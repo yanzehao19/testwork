@@ -3,10 +3,12 @@ package threadLocal;
 public class ThreadLocalTest {
 	ThreadLocal<Long> longLocal = new ThreadLocal<Long>();
 	ThreadLocal<String> stringLocal = new ThreadLocal<String>();
+	ThreadLocal<Long> longLocal1=new ThreadLocal<Long>();
 
 	public void set() {
 		longLocal.set(Thread.currentThread().getId());
 		stringLocal.set(Thread.currentThread().getName());
+		longLocal1.set( 2L);
 	}
 
 	public long getLong() {
@@ -16,6 +18,10 @@ public class ThreadLocalTest {
 	public String getString() {
 		return stringLocal.get();
 	}
+	
+	public long getLong1() {
+		return longLocal1.get();
+	}
 
 	public static void main(String[] args) throws InterruptedException {
 		final ThreadLocalTest test = new ThreadLocalTest();
@@ -23,6 +29,7 @@ public class ThreadLocalTest {
 		test.set();
 		System.out.println(test.getLong());
 		System.out.println(test.getString());
+		System.out.println(test.getLong1());
 
 		Thread thread = new Thread() {
 
@@ -30,6 +37,7 @@ public class ThreadLocalTest {
 				test.set();
 				System.out.println(test.getLong());
 				System.out.println(test.getString());
+				System.out.println(test.getLong1());
 			}
 
 		};
@@ -40,6 +48,7 @@ public class ThreadLocalTest {
 
 		System.out.println(test.getLong());
 		System.out.println(test.getString());
+		System.out.println(test.getLong1());
 
 	}
 
