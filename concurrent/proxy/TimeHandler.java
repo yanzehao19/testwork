@@ -12,7 +12,7 @@ public class TimeHandler implements InvocationHandler {
     }
     @Override
     public Object invoke(Object proxy, Method method,Object[] args) throws Throwable{
-        Canlendar canlendar= Calendar.getInstance();
+        Calendar canlendar= Calendar.getInstance();
         System.out.println("start time:"+canlendar.get(Calendar.HOUR_OF_DAY));
         method.invoke(target);
         System.out.println("end time:"+canlendar.get(Calendar.HOUR_OF_DAY));
