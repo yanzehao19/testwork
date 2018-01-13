@@ -32,5 +32,8 @@
         <wb-resource deploy-path="/" source-path="/.settings"/>
         <wb-resource deploy-path="/" source-path="/activiti"/>
         <wb-resource deploy-path="/" source-path="/javaBase"/>
+        <wb-resource deploy-path="/" source-path="/redis"/>
+        <wb-resource deploy-path="/" source-path="/zookeeper"/>
+        <wb-resource deploy-path="/" source-path="/servlet"/>
     </wb-module>
 </project-modules>

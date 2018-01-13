@@ -37,7 +37,11 @@
 	<classpathentry kind="src" path="jvm"/>
 	<classpathentry kind="src" path="hashCodeAndEquals"/>
 	<classpathentry kind="src" path="dataBase"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh_lib"/>
+	<classpathentry kind="src" path="redis"/>
+	<classpathentry kind="src" path="zookeeper"/>
+	<classpathentry kind="src" path="servlet"/>
+	<classpathentry kind="src" path="file"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/yzh-lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
