@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:batch="http://www.springframework.org/schema/batch"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/batch
+        http://www.springframework.org/schema/batch/spring-batch-3.0.xsd"
+    default-lazy-init="true">
+    <!-- 将数据库中数据查询出来入到txt文件中 -->
+    <batch:job id="batchCreateReconFileJob" job-repository="jobRepository">
+        <!-- 从channel ftp获取对账文件到本地临时目录以供读取解析入库   -->
+        <batch:step id="batchCreateReconFile0">
+            <batch:tasklet>
+                <batch:chunk reader="batchCreateReconFileReader" processor="batchCreateReconFileProcessor"
+                             writer="batchCreateReconFileWriter" commit-interval="1000"/>
+            </batch:tasklet>
+        </batch:step>
+    </batch:job>
+
+    <bean id="batchCreateReconFileReader" parent="abstractCursorReader" scope="step">
+        <property name="dataSource" ref="dataSource" />
+        <property name="sql">
+            <value>
+                <![CDATA[
+                SELECT
+                    qp.pay_no AS payNo,
+                    qp.channel_pay_no AS channelPayNo,
+                    qp.bank_pay_no AS bankPayNo,
+                    sign_no AS signNo
+                FROM channel_qptrade qp WHERE create_time >= '#{jobParameters['startDate']}' and create_time<'#{jobParameters['endDate']}'
+                
+                ]]>
+            </value>
+        </property>
+        <property name="rowMapper">
+            <bean class="org.springframework.jdbc.core.BeanPropertyRowMapper">
+                <property name="mappedClass" value="com.ninefbank.smallpay.clear.vo.ChannelQptradeVO"/>
+            </bean>
+        </property>
+    </bean>
+
+
+     <bean id="batchCreateReconFileWriter" class="org.springframework.batch.item.file.FlatFileItemWriter" scope="step">  
+        <property name="resource" value="file:#{jobParameters['outputFilePath']}"></property>  
+        <property name="lineAggregator">  
+            <bean class="org.springframework.batch.item.file.transform.FormatterLineAggregator">  
+                <property name="fieldExtractor">  
+                    <bean class="org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor">  
+                        <property name="names" value="payNo,channelPayNo,bankPayNo,signNo"></property>  
+                    </bean>  
+                </property>  
+                <property name="format" value="%s,%s,%s,%s"></property>  
+            </bean>  
+        </property>  
+    </bean>  
+      
+</beans>
+

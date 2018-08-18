@@ -35,5 +35,6 @@
         <wb-resource deploy-path="/" source-path="/redis"/>
         <wb-resource deploy-path="/" source-path="/zookeeper"/>
         <wb-resource deploy-path="/" source-path="/servlet"/>
+        <wb-resource deploy-path="/" source-path="/springBatch"/>
     </wb-module>
 </project-modules>
